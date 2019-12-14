@@ -18710,7 +18710,7 @@ fast recovery rectifier, 1A</description>
 <part name="GND8" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND9" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND10" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G2R" device="" package3d_urn="urn:adsk.eagle:package:24323/1"/>
+<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G2R" device="" package3d_urn="urn:adsk.eagle:package:24323/1" value="24V"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-030X075" package3d_urn="urn:adsk.eagle:package:23640/1" value="0.1uF"/>
 <part name="GND11" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="2K 1/2W"/>
@@ -18734,11 +18734,11 @@ fast recovery rectifier, 1A</description>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-2AC|CA" device="TO220V" package3d_urn="urn:adsk.eagle:package:43372/3"/>
 <part name="GND16" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-10" package3d_urn="urn:adsk.eagle:package:43344/2" value="1N4148"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="470R 1W"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="2K 1W"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-030X075" package3d_urn="urn:adsk.eagle:package:23640/1" value="0.1uF Mylar"/>
 <part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="FR107"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-030X075" package3d_urn="urn:adsk.eagle:package:23640/1" value="0.1uF"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1K 1/2W"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="4K 1/2W"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-030X075" package3d_urn="urn:adsk.eagle:package:23640/1" value="0.1uF"/>
 <part name="GND17" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-10" package3d_urn="urn:adsk.eagle:package:23351/1" value="1000uF 50V"/>
@@ -18761,13 +18761,13 @@ fast recovery rectifier, 1A</description>
 <part name="LED1" library="dp_devices.v6" deviceset="LED" device="-5MM"/>
 <part name="GND25" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="4.7K"/>
-<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="330R 1W"/>
+<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="560*x2 1W"/>
 <part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4007"/>
 <part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4007"/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
-<part name="Q6" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="8050"/>
+<part name="Q2I" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="8050"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
-<part name="Q7" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="8050"/>
+<part name="Q1I" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="8050"/>
 <part name="GND26" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-030X075" package3d_urn="urn:adsk.eagle:package:23640/1" value="0.1uF"/>
 <part name="GND27" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
@@ -18781,7 +18781,7 @@ fast recovery rectifier, 1A</description>
 <part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZV10" device="" package3d_urn="urn:adsk.eagle:package:43364/1" value="15V 1/2W"/>
 <part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZV10" device="" package3d_urn="urn:adsk.eagle:package:43364/1" value="15V 1/2W"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-10" package3d_urn="urn:adsk.eagle:package:23351/1" value="100uF 25V"/>
-<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="560R 2W"/>
+<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="4K 2W"/>
 <part name="GND31" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND32" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 </parts>
@@ -18795,10 +18795,7 @@ Near Heatsink</text>
 <text x="38.1" y="2.54" size="1.778" layer="91" align="center-left">NC</text>
 <text x="111.76" y="-12.7" size="1.778" layer="91" align="center-left">check pinout
 EBC</text>
-<text x="154.94" y="144.78" size="1.778" layer="98">&lt;15</text>
-<text x="177.8" y="116.84" size="1.778" layer="98">OFF</text>
-<text x="200.66" y="129.54" size="1.778" layer="98">ON</text>
-<text x="213.36" y="147.32" size="1.778" layer="98">Will turn on if VOUT &lt;15</text>
+<text x="213.36" y="147.32" size="1.778" layer="98">Will turn off if VOUT &gt;20V</text>
 <wire x1="83.82" y1="124.46" x2="127" y2="124.46" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="127" y1="124.46" x2="127" y2="71.12" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="127" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="98" style="shortdash"/>
@@ -18812,8 +18809,26 @@ EBC</text>
 <text x="-10.16" y="2.54" size="1.778" layer="98">13.52V</text>
 <text x="0" y="-2.54" size="1.778" layer="98">3.40V</text>
 <text x="-35.56" y="30.48" size="1.778" layer="98">calculated=0.455V</text>
-<text x="294.64" y="53.34" size="1.778" layer="98">calibrated to 14.03V</text>
+<text x="294.64" y="53.34" size="1.778" layer="98">calibrated to 14V</text>
 <text x="-10.16" y="43.18" size="1.778" layer="98">5.0V VREF</text>
+<wire x1="261.62" y1="167.64" x2="337.82" y2="167.64" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="337.82" y1="167.64" x2="337.82" y2="99.06" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="337.82" y1="99.06" x2="261.62" y2="99.06" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="261.62" y1="99.06" x2="261.62" y2="167.64" width="0.1524" layer="94" style="shortdash"/>
+<text x="299.72" y="104.14" size="1.778" layer="94" align="center">Accessory switch</text>
+<text x="193.04" y="106.68" size="1.778" layer="98">On the original design Vin = 24V
+This circuit will cut the power if
+Vout is 18V above</text>
+<text x="193.04" y="101.6" size="1.778" layer="98">Modified R29 to be 10K + 10K + 4.7K</text>
+<text x="101.6" y="25.4" size="1.778" layer="98">Original R19 is 1K 1/2W
+to 4K 1/2W</text>
+<text x="134.62" y="33.02" size="1.778" layer="98">Original R18 is 470R 1W
+to 2K 1W</text>
+<text x="177.8" y="170.18" size="1.778" layer="98">Original R26 is 330R 1W
+to 560 + 560 1W</text>
+<text x="71.12" y="157.48" size="1.778" layer="98">Original C11 is 1000uF 50V
+to 1000uF 63V</text>
+<text x="215.9" y="55.88" size="1.778" layer="98">18 turns on black ferrite core ring</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="22.86" y="2.54" smashed="yes">
@@ -19081,10 +19096,10 @@ EBC</text>
 <attribute name="VALUE" x="187.96" y="144.78" size="1.778" layer="96"/>
 </instance>
 <instance part="R27" gate="G$1" x="175.26" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="171.2214" y="143.51" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="173.482" y="143.51" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="177.8" y="147.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="177.8" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="Q6" gate="Q" x="172.72" y="121.92" smashed="yes">
+<instance part="Q2I" gate="Q" x="172.72" y="121.92" smashed="yes">
 <attribute name="NAME" x="177.8" y="121.92" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.8" y="119.38" size="1.778" layer="96"/>
 </instance>
@@ -19092,7 +19107,7 @@ EBC</text>
 <attribute name="NAME" x="189.23" y="136.1186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.23" y="133.858" size="1.778" layer="96"/>
 </instance>
-<instance part="Q7" gate="Q" x="205.74" y="132.08" smashed="yes">
+<instance part="Q1I" gate="Q" x="205.74" y="132.08" smashed="yes">
 <attribute name="NAME" x="208.28" y="132.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="208.28" y="129.54" size="1.778" layer="96"/>
 </instance>
@@ -19272,7 +19287,7 @@ EBC</text>
 <pinref part="LED1" gate="LED" pin="C"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="Q" pin="E"/>
+<pinref part="Q1I" gate="Q" pin="E"/>
 <pinref part="GND26" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -19280,7 +19295,7 @@ EBC</text>
 <pinref part="GND27" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="Q" pin="E"/>
+<pinref part="Q2I" gate="Q" pin="E"/>
 <pinref part="GND28" gate="G$1" pin="GND"/>
 <wire x1="175.26" y1="111.76" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -19680,7 +19695,7 @@ EBC</text>
 <pinref part="D8" gate="1" pin="A"/>
 <wire x1="198.12" y1="144.78" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="K1" gate="1" pin="2"/>
-<pinref part="Q7" gate="Q" pin="C"/>
+<pinref part="Q1I" gate="Q" pin="C"/>
 <wire x1="198.12" y1="142.24" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="134.62" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
@@ -19696,7 +19711,7 @@ EBC</text>
 <net name="N$25" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
-<pinref part="Q6" gate="Q" pin="C"/>
+<pinref part="Q2I" gate="Q" pin="C"/>
 <wire x1="175.26" y1="127" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="132.08" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
@@ -19707,13 +19722,13 @@ EBC</text>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R28" gate="G$1" pin="2"/>
-<pinref part="Q7" gate="Q" pin="B"/>
+<pinref part="Q1I" gate="Q" pin="B"/>
 <wire x1="198.12" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="Q6" gate="Q" pin="B"/>
+<pinref part="Q2I" gate="Q" pin="B"/>
 <pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="119.38" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
