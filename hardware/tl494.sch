@@ -19679,15 +19679,17 @@ to 1000uF 63V</text>
 <net name="N$23" class="0">
 <segment>
 <pinref part="D7" gate="1" pin="C"/>
-<wire x1="208.28" y1="160.02" x2="208.28" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="160.02" x2="208.28" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="K1" gate="1" pin="1"/>
+<wire x1="208.28" y1="157.48" x2="208.28" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <junction x="208.28" y="152.4"/>
 <pinref part="D8" gate="1" pin="C"/>
 <wire x1="198.12" y1="152.4" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
-<junction x="198.12" y="152.4"/>
+<wire x1="208.28" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="157.48" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
+<junction x="208.28" y="157.48"/>
 </segment>
 </net>
 <net name="N$24" class="0">
