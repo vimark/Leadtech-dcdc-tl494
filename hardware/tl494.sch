@@ -18927,7 +18927,7 @@ EBC</text>
 <wire x1="127" y1="124.46" x2="127" y2="71.12" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="127" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="83.82" y1="71.12" x2="83.82" y2="124.46" width="0.1524" layer="98" style="shortdash"/>
-<text x="104.14" y="73.66" size="1.778" layer="98" align="center">~60V Input MOD circuit</text>
+<text x="104.14" y="73.66" size="1.778" layer="98" align="center">48V Input MOD circuit</text>
 <text x="-2.54" y="-27.94" size="1.778" layer="98">91.65 Khz 3.2Vp-p</text>
 <text x="0" y="17.78" size="1.778" layer="98">2.02V</text>
 <text x="40.64" y="10.16" size="1.778" layer="98">5.0V VREF</text>
@@ -18962,6 +18962,14 @@ to 1000uF 63V</text>
 <text x="297.18" y="256.54" size="1.778" layer="98">48V Input</text>
 <text x="350.52" y="45.72" size="1.778" layer="98">14V out</text>
 <text x="215.9" y="248.92" size="1.778" layer="98">replace this with smaller P-MOSFET</text>
+<text x="106.68" y="106.68" size="1.778" layer="98" align="center">17mA</text>
+<text x="116.84" y="109.22" size="1.778" layer="98" align="center">this needs a
+pass transistor
+regulator</text>
+<text x="-2.54" y="-30.48" size="1.778" layer="98">108 Khz 3.2Vp-p</text>
+<text x="187.96" y="55.88" size="1.778" layer="98">VGS 2.62V</text>
+<text x="93.98" y="12.7" size="1.778" layer="98">Vr=17.44V</text>
+<text x="167.64" y="30.48" size="1.778" layer="98">Vr=31.19V</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="22.86" y="2.54" smashed="yes">
@@ -19124,17 +19132,17 @@ to 1000uF 63V</text>
 <attribute name="NAME" x="180.34" y="27.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="180.34" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="R18" gate="R" x="165.1" y="33.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="163.83" y="31.5214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="163.83" y="33.782" size="1.778" layer="96" rot="R180"/>
+<instance part="R18" gate="R" x="165.1" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="163.83" y="28.9814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="163.83" y="31.242" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C7" gate="G$1" x="180.34" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="182.88" y="45.72" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="182.88" y="48.26" size="1.778" layer="96" rot="R180"/>
+<instance part="C7" gate="G$1" x="180.34" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="182.88" y="43.18" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="182.88" y="45.72" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D5" gate="1" x="165.1" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="167.64" y="43.6626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="167.64" y="40.8686" size="1.778" layer="96"/>
+<attribute name="NAME" x="154.94" y="43.6626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.94" y="40.8686" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="175.26" y="12.7" smashed="yes">
 <attribute name="NAME" x="180.34" y="10.16" size="1.778" layer="95" rot="R90"/>
@@ -19764,7 +19772,7 @@ to 1000uF 63V</text>
 <pinref part="R19" gate="R" pin="2"/>
 <wire x1="165.1" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="22.86" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="27.94" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="25.4" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="15.24" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
 <junction x="175.26" y="22.86"/>
 </segment>
@@ -19774,9 +19782,10 @@ to 1000uF 63V</text>
 <pinref part="R18" gate="R" pin="1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="D5" gate="1" pin="C"/>
-<wire x1="165.1" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="40.64" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
-<junction x="165.1" y="40.64"/>
+<wire x1="165.1" y1="38.1" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
+<junction x="165.1" y="38.1"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -20074,10 +20083,8 @@ to 1000uF 63V</text>
 <net name="N$17" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="40.64" x2="193.04" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="J4" gate="1" pin="2"/>
-<wire x1="193.04" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="Q" pin="C"/>
 <wire x1="165.1" y1="-10.16" x2="165.1" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="R17" gate="R" pin="2"/>
