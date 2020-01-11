@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,18 +8,18 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -34,10 +34,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -97,8 +97,8 @@
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<text x="35.56" y="2.54" size="2.1844" layer="16" font="vector" ratio="18" rot="MR0">01-08-2020</text>
-<text x="60.325" y="76.835" size="2.1844" layer="16" font="vector" ratio="18" rot="MR0">LEADTECH CSPG 48V DC-DC MODULE V1.0</text>
+<text x="35.56" y="2.54" size="2.1844" layer="16" font="vector" ratio="18" rot="MR0">01-11-2020</text>
+<text x="60.325" y="76.835" size="2.1844" layer="16" font="vector" ratio="18" rot="MR0">LEADTECH CSPG 48V DC-DC MODULE V1.0b</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2340,7 +2340,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="VALUE" x="20.574" y="51.562" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C3" library="trosh_devices.eagle.v9" package="C050-024X044_EXPAD" value="0.1uF" x="31.75" y="43.18" smashed="yes">
-<attribute name="NAME" x="36.83" y="43.18" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="NAME" x="26.67" y="43.18" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="28.194" y="40.132" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C4" library="trosh_devices.eagle.v9" package="C050-024X044_EXPAD" value="0.1uF" x="31.75" y="40.64" smashed="yes" rot="R180">
@@ -2386,7 +2386,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="VALUE" x="54.61" y="63.1" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="D4" library="trosh_devices.eagle.v9" package="DO35-20" value="1N4148" x="75.565" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="75.565" y="48.26" size="1.27" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="76.835" y="59.69" size="1.27" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="78.232" y="53.721" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="FR107" x="63.5" y="41.91" smashed="yes" rot="R180">
@@ -2402,7 +2402,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="VALUE" x="9.652" y="9.144" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO34Z7" package3d_urn="urn:adsk.eagle:package:43364/1" value="15V 1/2W" x="17.78" y="74.93" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.495" y="73.025" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="18.415" y="76.835" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="1" x="-55.88" y="129.54" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="19.304" y="77.343" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -2464,7 +2464,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="VALUE" x="28.575" y="26.3906" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R15" library="trosh_devices.eagle.v9" package="0207/2V_EXPAD" value="4.7K" x="17.78" y="22.86" smashed="yes">
-<attribute name="NAME" x="16.51" y="22.86" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="NAME" x="21.59" y="22.86" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="15.5194" y="22.225" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R16" library="trosh_devices.eagle.v9" package="0207/10_EXPAD" value="1K 1/4W" x="50.165" y="24.13" smashed="yes" rot="R90">
@@ -2488,7 +2488,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="VALUE" x="6.6294" y="50.165" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R21" library="trosh_devices.eagle.v9" package="0207/2V_EXPAD" value="5.6K" x="12.7" y="62.23" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.605" y="62.23" size="1.27" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="12.7" y="65.405" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="13.335" y="59.9694" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R25" library="trosh_devices.eagle.v9" package="0207/10_EXPAD" value="4.7K" x="94.615" y="60.325" smashed="yes" rot="R90">
@@ -2532,11 +2532,11 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="VALUE" x="42.9006" y="27.305" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R4" library="trosh_devices.eagle.v9" package="0207/2V_EXPAD" value="10K" x="10.16" y="62.23" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.16" y="58.42" size="1.27" layer="25" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="10.16" y="59.69" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="9.525" y="64.4906" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R5" library="trosh_devices.eagle.v9" package="0207/2V_EXPAD" value="470K" x="7.62" y="62.23" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.08" y="62.23" size="1.27" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="7.62" y="64.77" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="8.255" y="59.9694" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R6" library="trosh_devices.eagle.v9" package="0207/10_EXPAD" value="390R" x="34.29" y="63.5" smashed="yes" rot="R90">
@@ -2568,7 +2568,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="VALUE" x="78.74" y="3.81" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R34" library="trosh_devices.eagle.v9" package="0207/2V_EXPAD" value="50K" x="73.66" y="10.16" smashed="yes">
-<attribute name="NAME" x="72.39" y="10.16" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="NAME" x="76.2" y="8.89" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="71.3994" y="9.525" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="Q1I1" library="dp_devices.v6" package="TO-92" value="2N3904" x="66.04" y="10.16" smashed="yes">
@@ -2590,7 +2590,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="VALUE" x="79.7306" y="2.54" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C17" library="trosh_devices.eagle.v9" package="E2-5_EXPAD" value="1uF 63V" x="57.15" y="11.43" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.07" y="11.43" size="1.27" layer="26" ratio="10" rot="MR0" align="center"/>
+<attribute name="NAME" x="57.15" y="15.24" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="60.198" y="8.128" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R20" library="trosh_devices.eagle.v9" package="0207/10_EXPAD" value="10K" x="64.77" y="6.985" smashed="yes" rot="R180">
@@ -2646,10 +2646,22 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="SPICEPREFIX" value="L" x="66.04" y="69.4" size="1.778" layer="27" rot="R245" display="off"/>
 <attribute name="VALUE" x="60.630865625" y="69.820384375" size="1.27" layer="27" rot="R335"/>
 </element>
-<element name="H3" library="trosh_devices.eagle.v9" package="TO-220_HEATSINK1" value="HEATSINK1" x="46.99" y="43.18" rot="R90"/>
-<element name="H4" library="trosh_devices.eagle.v9" package="TO-220_HEATSINK1" value="HEATSINK1" x="46.99" y="68.18" rot="R90"/>
-<element name="H5" library="trosh_devices.eagle.v9" package="TO-220_HEATSINK1" value="HEATSINK1" x="35.56" y="17.78" rot="R180"/>
-<element name="Q5" library="trosh_devices.eagle.v9" package="TO-220V" value="TIP31" x="35.56" y="20.32" rot="R180"/>
+<element name="H3" library="trosh_devices.eagle.v9" package="TO-220_HEATSINK1" value="HEATSINK1" x="46.99" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.45" y="40.005" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="53.34" y="56.515" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="H4" library="trosh_devices.eagle.v9" package="TO-220_HEATSINK1" value="HEATSINK1" x="46.99" y="68.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.18" y="68.815" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="53.34" y="81.515" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="H5" library="trosh_devices.eagle.v9" package="TO-220_HEATSINK1" value="HEATSINK1" x="35.56" y="17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.29" y="13.335" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="VALUE" x="22.225" y="24.13" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="Q5" library="trosh_devices.eagle.v9" package="TO-220V" value="TIP31" x="35.56" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="40.64" y="23.6982" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="40.64" y="25.4" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

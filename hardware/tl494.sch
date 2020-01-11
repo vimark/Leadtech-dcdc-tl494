@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19217,7 +19217,11 @@ to 2K 1W</text>
 to 560 + 560 1W</text>
 <text x="71.12" y="157.48" size="1.778" layer="98">Original C11 is 1000uF 50V
 to 1000uF 63V</text>
-<text x="215.9" y="55.88" size="1.778" layer="98">18 turns on black ferrite ring</text>
+<text x="215.9" y="55.88" size="1.778" layer="98">18 turns
+Ferrite Ring Black
+OD - 17.5mm
+ID - 9.5mm
+Thickness - 7mm</text>
 <text x="210.82" y="236.22" size="1.778" layer="98">SW</text>
 <text x="241.3" y="208.28" size="1.778" layer="98">Latch circuit</text>
 <wire x1="261.62" y1="251.46" x2="261.62" y2="205.74" width="0.1524" layer="98" style="shortdash"/>
@@ -19231,9 +19235,14 @@ to 1000uF 63V</text>
 <text x="215.9" y="248.92" size="1.778" layer="98">replace this with smaller P-MOSFET</text>
 <text x="106.68" y="96.52" size="1.778" layer="98" align="center">17mA</text>
 <text x="-2.54" y="-30.48" size="1.778" layer="98">108 Khz 3.2Vp-p</text>
-<text x="187.96" y="55.88" size="1.778" layer="98">VGS 2.62V</text>
-<text x="93.98" y="12.7" size="1.778" layer="98">Vr=17.44V</text>
+<text x="190.5" y="55.88" size="1.778" layer="98">VGS 2.62V</text>
+<text x="93.98" y="15.24" size="1.778" layer="98">Vr=17.44V</text>
 <text x="167.64" y="30.48" size="1.778" layer="98">Vr=31.19V</text>
+<text x="38.1" y="48.26" size="1.778" layer="98">350R Room Temp</text>
+<text x="210.82" y="165.1" size="1.778" layer="98">17mA diode current</text>
+<text x="86.36" y="12.7" size="1.778" layer="98">Ir=12mA (working)</text>
+<text x="86.36" y="10.16" size="1.778" layer="98">Ir=9mA(not working)</text>
+<text x="167.64" y="33.02" size="1.778" layer="98">Ir=17mA</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="22.86" y="2.54" smashed="yes">
@@ -19319,8 +19328,8 @@ to 1000uF 63V</text>
 </instance>
 <instance part="GND6" gate="G$1" x="20.32" y="45.72" smashed="yes"/>
 <instance part="RT1" gate="R" x="35.56" y="53.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.83" y="57.3786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="37.338" y="57.15" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="38.1" y="58.42" size="1.778" layer="95"/>
+<attribute name="VALUE" x="38.1" y="55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="G$1" x="35.56" y="45.72" smashed="yes"/>
 <instance part="GND8" gate="G$1" x="43.18" y="5.08" smashed="yes"/>
@@ -19384,8 +19393,8 @@ to 1000uF 63V</text>
 <attribute name="VALUE" x="134.62" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="Q4" gate="Q" x="185.42" y="48.26" smashed="yes" rot="R90">
-<attribute name="VALUE" x="185.42" y="54.61" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="182.88" y="54.61" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="180.34" y="53.34" size="1.778" layer="96"/>
+<attribute name="NAME" x="180.34" y="55.88" size="1.778" layer="95"/>
 </instance>
 <instance part="D3" gate="-B1" x="210.82" y="43.18" smashed="yes">
 <attribute name="NAME" x="211.582" y="45.1866" size="1.778" layer="95"/>
@@ -19616,9 +19625,18 @@ to 1000uF 63V</text>
 <attribute name="NAME" x="219.71" y="52.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.71" y="47.498" size="1.778" layer="96"/>
 </instance>
-<instance part="H3" gate="G$1" x="172.72" y="60.96"/>
-<instance part="H4" gate="G$1" x="210.82" y="12.7"/>
-<instance part="H5" gate="G$1" x="91.44" y="81.28" rot="R90"/>
+<instance part="H3" gate="G$1" x="172.72" y="60.96" smashed="yes">
+<attribute name="NAME" x="178.435" y="64.135" size="1.778" layer="95"/>
+<attribute name="VALUE" x="178.435" y="61.595" size="1.778" layer="96"/>
+</instance>
+<instance part="H4" gate="G$1" x="210.82" y="12.7" smashed="yes">
+<attribute name="NAME" x="216.535" y="15.875" size="1.778" layer="95"/>
+<attribute name="VALUE" x="216.535" y="13.335" size="1.778" layer="96"/>
+</instance>
+<instance part="H5" gate="G$1" x="91.44" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="88.265" y="86.995" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="90.805" y="86.995" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="Q5" gate="G$1" x="111.76" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.76" y="109.22" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="111.76" y="106.68" size="1.778" layer="96" align="bottom-center"/>
