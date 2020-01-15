@@ -19212,7 +19212,7 @@ Vout is 18V above</text>
 <text x="101.6" y="25.4" size="1.778" layer="98">Original R19 is 1K 1/2W
 to 4K 1/2W</text>
 <text x="134.62" y="33.02" size="1.778" layer="98">Original R18 is 470R 1W
-to 2K 1W</text>
+to 5K 1W</text>
 <text x="177.8" y="170.18" size="1.778" layer="98">Original R26 is 330R 1W
 to 560 + 560 1W</text>
 <text x="71.12" y="157.48" size="1.778" layer="98">Original C11 is 1000uF 50V
@@ -19235,13 +19235,10 @@ Thickness - 7mm</text>
 <text x="215.9" y="248.92" size="1.778" layer="98">replace this with smaller P-MOSFET</text>
 <text x="106.68" y="96.52" size="1.778" layer="98" align="center">17mA</text>
 <text x="-2.54" y="-30.48" size="1.778" layer="98">108 Khz 3.2Vp-p</text>
-<text x="193.04" y="0" size="1.778" layer="98">VGS 2.62V</text>
 <text x="93.98" y="15.24" size="1.778" layer="98">Vr=17.44V</text>
 <text x="167.64" y="30.48" size="1.778" layer="98">Vr=31.19V</text>
 <text x="38.1" y="48.26" size="1.778" layer="98">350R Room Temp</text>
 <text x="210.82" y="165.1" size="1.778" layer="98">17mA diode current</text>
-<text x="86.36" y="12.7" size="1.778" layer="98">Ir=12mA (working)</text>
-<text x="86.36" y="10.16" size="1.778" layer="98">Ir=9mA(not working)</text>
 <text x="167.64" y="33.02" size="1.778" layer="98">Ir=17mA</text>
 <text x="170.18" y="53.34" size="1.778" layer="98">~48V</text>
 <text x="71.12" y="-33.02" size="1.778" layer="98" align="center-left">Vdivider, V@R15
@@ -19252,7 +19249,6 @@ R14 = 68K, R15 = 4.7K, I=330uA
 new values
 R14=130k, R15=4.3k, I=357uA</text>
 <text x="93.98" y="-10.16" size="1.778" layer="98" align="center-left">Ib=188uA</text>
-<text x="109.22" y="2.54" size="1.778" layer="98" align="center-left">Ic=15.1mA</text>
 <text x="167.64" y="25.4" size="1.778" layer="98">Vr=7.08V</text>
 <text x="111.76" y="10.16" size="1.778" layer="98">Vr=15.66V</text>
 </plain>

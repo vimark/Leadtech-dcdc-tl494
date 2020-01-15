@@ -7,8 +7,8 @@ Shape Version=11.00
 Screen=1920,1080
 MCAPVersion=12.2.0.3
 Key ID=Demo
-NLCnt=74
-TXCnt=0
+NLCnt=77
+TXCnt=2
 
 [shapedef]
 Name=Battery
@@ -219,7 +219,7 @@ Name=Resistor
 Definition=Resistor
 Shape=Resistor
 Mask=6401
-Used=149
+Used=150
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -291,8 +291,8 @@ Pin="Minus",0,0,-3,-9
 Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
-Mask=7425
-Used=22
+Mask=6145
+Used=23
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -403,7 +403,7 @@ Style=8192
 
 [Attr]
 ON=-23,-39,RESISTANCE
-V=2k
+V=5k
 Style=8192
 
 [Attr]
@@ -425,7 +425,7 @@ Style=8192
 
 [Attr]
 ON=14,-33,RESISTANCE
-V=1k
+V=4.7k
 Style=8192
 
 [Attr]
@@ -452,9 +452,6 @@ V=TO-92
 
 [Wire]
 Pxs=688,456,688,480
-
-[Wire]
-Pxs=688,528,688,696
 
 [Comp]
 Name=Resistor
@@ -487,7 +484,7 @@ Style=8192
 
 [Attr]
 ON=-35,-39,RESISTANCE
-V=4.3k
+V=4.7k
 Style=8192
 
 [Attr]
@@ -495,10 +492,7 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=600,696,688,696
-
-[Wire]
-Pxs=600,552,600,696
+Pxs=480,696,688,696
 
 [Wire]
 Pxs=600,480,600,504
@@ -808,7 +802,7 @@ Style=8192
 
 [Attr]
 ON=15,-41,VALUE
-V=DC 0 AC 1 0 Pulse 0.8 -8 0 0 0 5u 10u
+V=DC 0 AC 1 0 Pulse 0 15 0 0 0 2u 10u
 
 [Attr]
 ON=0,0,PACKAGE
@@ -836,7 +830,7 @@ Style=256
 
 [Attr]
 ON=0,0,Saved_Pulse
-V=DC 0 AC 1 0 Pulse 0.8 -8 0 0 0 5u 10u
+V=DC 0 AC 1 0 Pulse 0 15 0 0 0 2u 10u
 Style=256
 
 [Attr]
@@ -853,9 +847,6 @@ Style=256
 Pxs=480,624,480,696
 
 [Wire]
-Pxs=480,696,600,696
-
-[Wire]
 Pxs=480,504,480,576
 
 [Comp]
@@ -870,7 +861,7 @@ Style=8192
 
 [Attr]
 ON=8,25,RESISTANCE
-V=100
+V=50
 Style=8192
 
 [Attr]
@@ -889,11 +880,60 @@ Pxs=1320,656,1320,696
 [Wire]
 Pxs=1216,696,1320,696
 
+[Comp]
+Name=Capacitor
+Px=520,504
+
+[Attr]
+ON=16,12,PART
+V=C3
+Style=8192
+
+[Attr]
+ON=16,26,CAPACITANCE
+V=100n
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=568,504,600,504
+
+[Wire]
+Pxs=480,504,520,504
+
 [Wire]
 Pxs=600,504,664,504
 
 [Wire]
-Pxs=480,504,600,504
+Pxs=688,528,688,584
+
+[Wire]
+Pxs=600,552,600,584
+
+[Wire]
+Pxs=600,584,688,584
+
+[Wire]
+Pxs=688,584,688,696
+
+[Grid Text]
+Text="vout"
+Px=1320,584
+GridSnap=True
+JustifyH=Left
+JustifyV=Bottom
+CBorder=None
+
+[Grid Text]
+Text="vpulse"
+Px=480,504
+GridSnap=True
+JustifyH=Left
+JustifyV=Bottom
+CBorder=None
 
 [Schematic]
 CurrentSection 0=0
@@ -1092,9 +1132,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=296,216
+SB 3=207,240
 Scale 3=0.66666666666666663
-Px=501,429
+Px=490,600
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1185,7 +1225,7 @@ Search Color=#FFFF00
 [Text Area]
 Section=0
 Page=1
-Text=.OPTIONS ITL4=50          
+Text=.OPTIONS ITL4=50   
 
 [Text Area]
 Section=0
@@ -1332,7 +1372,7 @@ FFT_IncludeDCHarmonic=False
 FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=7
+MonMaxShow=12
 MonPageWidth=42
 MonPlotWidth=26
 MonExprXWidth=96
@@ -1727,7 +1767,7 @@ Seed=0
 Analysis=Transient
 TMax=100u
 TStart=0
-TStep=0.00000001
+TStep=1000n
 NPts=51
 Temp=27
 RetraceRuns=1
@@ -1796,10 +1836,10 @@ AliasID=2
 XExp=T
 YExp=v(7)-v(8)
 XRng=0.0001
-YRng=60,-15
+YRng=64,-16
 Options=LINEARX,LINEARY
 Range Grid X=2e-5
-Range Grid Y=15
+Range Grid Y=16
 Enable=Enable
 Line Color=#8000C0
 Text Color=#8000C0
@@ -1820,12 +1860,12 @@ Analysis=Transient
 Plt=1
 AliasID=1
 XExp=T
-YExp=v(5)
+YExp=v(vpulse)
 XRng=0.0001
-YRng=60,-15
+YRng=64,-16
 Options=LINEARX,LINEARY
 Range Grid X=2e-5
-Range Grid Y=15
+Range Grid Y=16
 Enable=Enable
 Line Color=#FF00FF
 Text Color=#FF00FF
@@ -1846,12 +1886,12 @@ Analysis=Transient
 Plt=1
 AliasID=4
 XExp=T
-YExp=v(9)
-XRng=0.001
-YRng=75,-50
+YExp=v(vout)
+XRng=0.03
+YRng=20
 Options=LINEARX,LINEARY
-Range Grid X=0.0002
-Range Grid Y=25
+Range Grid X=0.006
+Range Grid Y=4
 Enable=DontRun
 Line Color=#F86100
 Text Color=#F86100
@@ -1870,15 +1910,41 @@ NOFmtY=3E
 [WaveForm]
 Analysis=Transient
 Plt=1
+AliasID=8
+XExp=T
+YExp=rms(v(vout))
+XRng=0.03
+YRng=20
+Options=LINEARX,LINEARY
+Range Grid X=0.006
+Range Grid Y=4
+Enable=DontRun
+Line Color=#0000FF
+Text Color=#0000FF
+Rainbow=False
+VFmtX=3
+VFmtY=3
+ScaleFactorX="None"
+ScaleFactorY="None"
+ScaleUnitsX="Auto"
+ScaleUnitsY="Auto"
+SFmtX=2
+SFmtY=2
+NOFmtX=3E
+NOFmtY=3E
+
+[WaveForm]
+Analysis=Transient
+Plt=1
 AliasID=6
 XExp=T
 YExp=v(4)
-XRng=0.001
+XRng=0.0001
 YRng=64,-16
 Options=LINEARX,LINEARY
-Range Grid X=0.0002
+Range Grid X=2e-5
 Range Grid Y=16
-Enable=DontRun
+Enable=Enable
 Line Color=#0000FF
 Text Color=#0000FF
 Rainbow=False
@@ -1904,9 +1970,113 @@ YRng=60,-15
 Options=LINEARX,LINEARY
 Range Grid X=2e-5
 Range Grid Y=15
-Enable=Enable
+Enable=DontRun
 Line Color=#FF0000
 Text Color=#FF0000
+Rainbow=False
+VFmtX=3
+VFmtY=3
+ScaleFactorX="None"
+ScaleFactorY="None"
+ScaleUnitsX="Auto"
+ScaleUnitsY="Auto"
+SFmtX=2
+SFmtY=2
+NOFmtX=3E
+NOFmtY=3E
+
+[WaveForm]
+Analysis=Transient
+Plt=1
+AliasID=13
+XExp=T
+YExp=v(5)
+XRng=0.0001
+YRng=60,-15
+Options=LINEARX,LINEARY
+Range Grid X=2e-5
+Range Grid Y=15
+Enable=DontRun
+Line Color=#000000
+Text Color=#000000
+Rainbow=False
+VFmtX=3
+VFmtY=3
+ScaleFactorX="None"
+ScaleFactorY="None"
+ScaleUnitsX="Auto"
+ScaleUnitsY="Auto"
+SFmtX=2
+SFmtY=2
+NOFmtX=3E
+NOFmtY=3E
+
+[WaveForm]
+Analysis=Transient
+Plt=1
+AliasID=9
+XExp=T
+YExp=i(r1)
+XRng=0.001
+YRng=0.03
+Options=LINEARX,LINEARY
+Range Grid X=0.0002
+Range Grid Y=0.006
+Enable=DontRun
+Line Color=#FF00FF
+Text Color=#FF00FF
+Rainbow=False
+VFmtX=3
+VFmtY=3
+ScaleFactorX="None"
+ScaleFactorY="None"
+ScaleUnitsX="Auto"
+ScaleUnitsY="Auto"
+SFmtX=2
+SFmtY=2
+NOFmtX=3E
+NOFmtY=3E
+
+[WaveForm]
+Analysis=Transient
+Plt=1
+AliasID=10
+XExp=T
+YExp=rms(i(r1))
+XRng=0.05
+YRng=60
+Options=LINEARX,LINEARY
+Range Grid X=0.01
+Range Grid Y=12
+Enable=DontRun
+Line Color=#000000
+Text Color=#000000
+Rainbow=False
+VFmtX=3
+VFmtY=3
+ScaleFactorX="None"
+ScaleFactorY="None"
+ScaleUnitsX="Auto"
+ScaleUnitsY="Auto"
+SFmtX=2
+SFmtY=2
+NOFmtX=3E
+NOFmtY=3E
+
+[WaveForm]
+Analysis=Transient
+Plt=1
+AliasID=11
+XExp=T
+YExp=rms(v(r1))
+XRng=0.05
+YRng=60
+Options=LINEARX,LINEARY
+Range Grid X=0.01
+Range Grid Y=12
+Enable=DontRun
+Line Color=#0000FF
+Text Color=#0000FF
 Rainbow=False
 VFmtX=3
 VFmtY=3
