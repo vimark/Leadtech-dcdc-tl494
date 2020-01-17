@@ -19251,6 +19251,8 @@ R14=130k, R15=4.3k, I=357uA</text>
 <text x="93.98" y="-10.16" size="1.778" layer="98" align="center-left">Ib=188uA</text>
 <text x="167.64" y="25.4" size="1.778" layer="98">Vr=7.08V</text>
 <text x="111.76" y="10.16" size="1.778" layer="98">Vr=15.66V</text>
+<text x="185.42" y="40.64" size="1.778" layer="98">Bootstrap
+Capacitor</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="22.86" y="2.54" smashed="yes">
