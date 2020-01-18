@@ -19091,7 +19091,7 @@ fast recovery rectifier, 1A</description>
 <part name="R13" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="10K"/>
 <part name="C6" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-024X044_EXPAD" value="0.1uF"/>
 <part name="R14" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="130K"/>
-<part name="R15" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="4.3K"/>
+<part name="R15" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="4.7K"/>
 <part name="GND14" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="Q1" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="2N5551"/>
 <part name="GND15" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
@@ -19253,6 +19253,7 @@ R14=130k, R15=4.3k, I=357uA</text>
 <text x="111.76" y="10.16" size="1.778" layer="98">Vr=15.66V</text>
 <text x="185.42" y="40.64" size="1.778" layer="98">Bootstrap
 Capacitor</text>
+<text x="165.1" y="38.1" size="1.778" layer="98">~35.3 wrt Q4s</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="22.86" y="2.54" smashed="yes">

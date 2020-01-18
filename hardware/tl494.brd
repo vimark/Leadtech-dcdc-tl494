@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -2463,7 +2463,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="NAME" x="29.21" y="22.86" size="1.27" layer="25" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="28.575" y="26.3906" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R15" library="trosh_devices.eagle.v9" package="0207/2V_EXPAD" value="4.3K" x="17.78" y="22.86" smashed="yes">
+<element name="R15" library="trosh_devices.eagle.v9" package="0207/2V_EXPAD" value="4.7K" x="17.78" y="22.86" smashed="yes">
 <attribute name="NAME" x="21.59" y="22.86" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="15.5194" y="22.225" size="1.27" layer="27" ratio="10"/>
 </element>
