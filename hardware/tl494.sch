@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19240,7 +19240,7 @@ Thickness - 7mm</text>
 <text x="38.1" y="48.26" size="1.778" layer="98">350R Room Temp</text>
 <text x="210.82" y="165.1" size="1.778" layer="98">17mA diode current</text>
 <text x="167.64" y="33.02" size="1.778" layer="98">Ir=17mA</text>
-<text x="170.18" y="53.34" size="1.778" layer="98">~48V</text>
+<text x="208.28" y="53.34" size="1.778" layer="98">~48V</text>
 <text x="71.12" y="-33.02" size="1.778" layer="98" align="center-left">Vdivider, V@R15
 @Vin 24V = 1.552V
 @Vin 48V = 3.103V
@@ -19636,9 +19636,9 @@ Capacitor</text>
 <attribute name="NAME" x="232.41" y="-11.2014" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="-16.002" size="1.778" layer="96"/>
 </instance>
-<instance part="H3" gate="G$1" x="172.72" y="60.96" smashed="yes">
-<attribute name="NAME" x="178.435" y="64.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="178.435" y="61.595" size="1.778" layer="96"/>
+<instance part="H3" gate="G$1" x="198.12" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.945" y="26.035" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="197.485" y="26.035" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="H4" gate="G$1" x="223.52" y="-40.64" smashed="yes">
 <attribute name="NAME" x="229.235" y="-37.465" size="1.778" layer="95"/>
@@ -19974,18 +19974,9 @@ Capacitor</text>
 </segment>
 <segment>
 <pinref part="Q4" gate="Q" pin="D"/>
-<pinref part="D5" gate="1" pin="A"/>
-<wire x1="165.1" y1="45.72" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
-<label x="165.1" y="53.34" size="1.778" layer="95"/>
-<wire x1="165.1" y1="50.8" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
-<junction x="165.1" y="50.8"/>
-<wire x1="165.1" y1="50.8" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
+<label x="203.2" y="53.34" size="1.778" layer="95"/>
+<wire x1="203.2" y1="50.8" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="50.8" x2="203.2" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R14" gate="R" pin="2"/>
-<wire x1="76.2" y1="5.08" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
-<label x="76.2" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R33" gate="R" pin="1"/>
@@ -20244,8 +20235,18 @@ Capacitor</text>
 </segment>
 <segment>
 <pinref part="R31" gate="R" pin="2"/>
-<wire x1="60.96" y1="5.08" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="5.08" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
 <label x="60.96" y="10.16" size="1.778" layer="95"/>
+<pinref part="R14" gate="R" pin="2"/>
+<wire x1="60.96" y1="7.62" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="5.08" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="7.62" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
+<junction x="60.96" y="7.62"/>
+</segment>
+<segment>
+<pinref part="D5" gate="1" pin="A"/>
+<wire x1="165.1" y1="45.72" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
+<label x="165.1" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN" class="0">
