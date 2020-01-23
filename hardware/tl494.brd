@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2459,7 +2459,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="NAME" x="10.16" y="35.56" size="1.27" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="13.335" y="33.2994" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R14" library="trosh_devices.eagle.v9" package="0207/2V_EXPAD" value="130K" x="29.21" y="24.13" smashed="yes" rot="R270">
+<element name="R14" library="trosh_devices.eagle.v9" package="0207/2V_EXPAD" value="68K" x="29.21" y="24.13" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.21" y="22.86" size="1.27" layer="25" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="28.575" y="26.3906" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>

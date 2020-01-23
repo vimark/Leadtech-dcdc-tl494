@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19090,7 +19090,7 @@ fast recovery rectifier, 1A</description>
 <part name="GND13" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="R13" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="10K"/>
 <part name="C6" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-024X044_EXPAD" value="0.1uF"/>
-<part name="R14" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="130K"/>
+<part name="R14" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="68K"/>
 <part name="R15" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="4.7K"/>
 <part name="GND14" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="Q1" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="2N5551"/>
