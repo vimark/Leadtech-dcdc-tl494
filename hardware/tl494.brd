@@ -2475,11 +2475,11 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <attribute name="NAME" x="50.165" y="36.83" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="52.4256" y="35.56" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R18" library="trosh_devices.eagle.v9" package="0414V_EXPAD" value="2K 1W" x="66.675" y="38.1" smashed="yes">
+<element name="R18" library="trosh_devices.eagle.v9" package="0414V_EXPAD" value="470R 1W" x="66.675" y="38.1" smashed="yes">
 <attribute name="NAME" x="67.31" y="40.005" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="64.4144" y="37.465" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R19" library="trosh_devices.eagle.v9" package="0414V_EXPAD" value="4K 1/2W" x="66.675" y="33.02" smashed="yes" rot="R90">
+<element name="R19" library="trosh_devices.eagle.v9" package="0414V_EXPAD" value="1K 1/2W" x="66.675" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.85" y="30.48" size="1.27" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="67.31" y="30.7594" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>

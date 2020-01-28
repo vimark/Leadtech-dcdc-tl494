@@ -19104,11 +19104,11 @@ fast recovery rectifier, 1A</description>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-2AC|CA" device="TO220V" package3d_urn="urn:adsk.eagle:package:43372/3" value="FCH30A06"/>
 <part name="GND16" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="D4" library="trosh_devices.eagle.v9" deviceset="DIODE" device="DO35-20" value="1N4148"/>
-<part name="R18" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0414V_EXPAD" value="2K 1W"/>
+<part name="R18" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0414V_EXPAD" value="470R 1W"/>
 <part name="C7" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-050X075_EXPAD" value="0.1uF Mylar"/>
 <part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="FR107"/>
 <part name="C8" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-024X044_EXPAD" value="0.1uF"/>
-<part name="R19" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0414V_EXPAD" value="4K 1/2W"/>
+<part name="R19" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0414V_EXPAD" value="1K 1/2W"/>
 <part name="C9" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-024X044_EXPAD" value="0.1uF"/>
 <part name="GND17" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E7.5-18" package3d_urn="urn:adsk.eagle:package:23379/1" value="1000uF 63V"/>
@@ -19209,10 +19209,6 @@ EBC</text>
 This circuit will cut the power if
 Vout is 18V above</text>
 <text x="193.04" y="101.6" size="1.778" layer="98">Modified R29 to be 10K + 10K + 4.7K</text>
-<text x="101.6" y="25.4" size="1.778" layer="98">Original R19 is 1K 1/2W
-to 4K 1/2W</text>
-<text x="134.62" y="33.02" size="1.778" layer="98">Original R18 is 470R 1W
-to 5K 1W</text>
 <text x="177.8" y="170.18" size="1.778" layer="98">Original R26 is 330R 1W
 to 560 + 560 1W</text>
 <text x="71.12" y="157.48" size="1.778" layer="98">Original C11 is 1000uF 50V
@@ -19235,11 +19231,9 @@ Thickness - 7mm</text>
 <text x="215.9" y="248.92" size="1.778" layer="98">replace this with smaller P-MOSFET</text>
 <text x="106.68" y="96.52" size="1.778" layer="98" align="center">17mA</text>
 <text x="-2.54" y="-30.48" size="1.778" layer="98">108 Khz 3.2Vp-p</text>
-<text x="93.98" y="15.24" size="1.778" layer="98">Vr=17.44V</text>
-<text x="167.64" y="30.48" size="1.778" layer="98">Vr=31.19V</text>
+<text x="111.76" y="2.54" size="1.778" layer="98">Vc=10V</text>
 <text x="38.1" y="48.26" size="1.778" layer="98">350R Room Temp</text>
 <text x="210.82" y="165.1" size="1.778" layer="98">17mA diode current</text>
-<text x="167.64" y="33.02" size="1.778" layer="98">Ir=17mA</text>
 <text x="208.28" y="53.34" size="1.778" layer="98">~48V</text>
 <text x="71.12" y="-33.02" size="1.778" layer="98" align="center-left">Vdivider, V@R15
 @Vin 24V = 1.552V
@@ -19249,11 +19243,11 @@ R14 = 68K, R15 = 4.7K, I=330uA
 new values
 R14=130k, R15=4.3k, I=357uA</text>
 <text x="93.98" y="-10.16" size="1.778" layer="98" align="center-left">Ib=188uA</text>
-<text x="167.64" y="25.4" size="1.778" layer="98">Vr=7.08V</text>
-<text x="111.76" y="10.16" size="1.778" layer="98">Vr=15.66V</text>
 <text x="185.42" y="40.64" size="1.778" layer="98">Bootstrap
 Capacitor</text>
-<text x="165.1" y="38.1" size="1.778" layer="98">~35.3 wrt Q4s</text>
+<text x="180.34" y="7.62" size="1.778" layer="98">Vc=3V</text>
+<text x="-81.28" y="30.48" size="1.778" layer="98">calculated=2V</text>
+<text x="144.78" y="38.1" size="1.778" layer="98">Vc=4V WRT Q4 source</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="22.86" y="2.54" smashed="yes">
@@ -19429,8 +19423,8 @@ Capacitor</text>
 <attribute name="VALUE" x="154.94" y="40.8686" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="175.26" y="12.7" smashed="yes">
-<attribute name="NAME" x="180.34" y="10.16" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="182.88" y="10.16" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="177.8" y="15.24" size="1.778" layer="95"/>
+<attribute name="VALUE" x="177.8" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="R19" gate="R" x="109.22" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.49" y="14.1986" size="1.778" layer="95"/>
