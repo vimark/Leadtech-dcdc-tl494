@@ -19217,7 +19217,8 @@ to 1000uF 63V</text>
 Ferrite Ring Black
 OD - 17.5mm
 ID - 9.5mm
-Thickness - 7mm</text>
+Thickness - 7mm
+Measured 29.04uH</text>
 <text x="210.82" y="236.22" size="1.778" layer="98">SW</text>
 <text x="241.3" y="208.28" size="1.778" layer="98">Latch circuit</text>
 <wire x1="261.62" y1="251.46" x2="261.62" y2="205.74" width="0.1524" layer="98" style="shortdash"/>
@@ -19248,6 +19249,8 @@ Capacitor</text>
 <text x="180.34" y="7.62" size="1.778" layer="98">Vc=3V</text>
 <text x="-81.28" y="30.48" size="1.778" layer="98">calculated=2V</text>
 <text x="144.78" y="38.1" size="1.778" layer="98">Vc=4V WRT Q4 source</text>
+<text x="175.26" y="-22.86" size="1.778" layer="98">Dual Diode
+Peak Repetitive Reverse Voltage: 60V</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="22.86" y="2.54" smashed="yes">
