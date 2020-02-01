@@ -18638,80 +18638,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <rectangle x1="-0.889" y1="1.27" x2="0.889" y2="1.778" layer="51"/>
 <rectangle x1="1.651" y1="1.27" x2="3.429" y2="1.778" layer="51"/>
 </package>
-<package name="RAD2,5_EXPAD" urn="urn:adsk.eagle:footprint:43259/1" locally_modified="yes">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2.54 mm, vertical, grid 2.54 mm</description>
-<wire x1="0.3048" y1="0" x2="-0.2794" y2="0" width="0.6096" layer="21"/>
-<wire x1="1.27" y1="0" x2="0.508" y2="0" width="0.6096" layer="51"/>
-<wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.6096" layer="51"/>
-<circle x="-1.27" y="0" radius="1.905" width="0.1524" layer="21"/>
-<pad name="C" x="-1.27" y="0" drill="0.8128" diameter="1.905"/>
-<pad name="A" x="1.27" y="0" drill="0.8128" diameter="1.905" shape="octagon"/>
-<text x="0.9144" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="0.889" y="0.9906" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
-<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="A" x="5.08" y="0" drill="1.1176"/>
-<pad name="C" x="-5.08" y="0" drill="1.1176"/>
-<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
-<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
-<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
-</package>
-<package name="DO35-20" urn="urn:adsk.eagle:footprint:43092/1" locally_modified="yes">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 10.16 mm</description>
-<wire x1="10.16" y1="0" x2="4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-10.16" y1="0" x2="-4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="-0.762" x2="2.286" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-10.16" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="10.16" y="0" drill="0.8128" shape="long"/>
-<text x="-2.159" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="4.191" y2="0.254" layer="21"/>
-<rectangle x1="-4.191" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
 </packages>
-<packages3d>
-<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box">
-<description>DIODE
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="DO41-10"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="POT">
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
@@ -18800,22 +18727,6 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
-</symbol>
-<symbol name="D">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -19001,45 +18912,6 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE" prefix="D">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-fast recovery rectifier, 1A</description>
-<gates>
-<gate name="1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO41-10">
-<connects>
-<connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43336/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DO41-2.5V" package="RAD2,5_EXPAD">
-<connects>
-<connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DO35-20" package="DO35-20">
-<connects>
-<connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -19099,16 +18971,14 @@ fast recovery rectifier, 1A</description>
 <part name="R16" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="-0207/10_EXPAD" value="1K 1/4W"/>
 <part name="Q3" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="8050"/>
 <part name="R17" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="10K"/>
-<part name="D2" library="trosh_devices.eagle.v9" deviceset="DIODE" device="DO41-2.5V" value="FR107"/>
 <part name="Q4" library="dp_devices.v6" deviceset="TRANSISTOR_MOSFET-N" device="-TO220V" value="2SK4145"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-2AC|CA" device="TO220V" package3d_urn="urn:adsk.eagle:package:43372/3" value="FCH30A06"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-2AC|CA" device="TO220V" package3d_urn="urn:adsk.eagle:package:43372/3" value="FCHS20A08"/>
 <part name="GND16" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="D4" library="trosh_devices.eagle.v9" deviceset="DIODE" device="DO35-20" value="1N4148"/>
 <part name="R18" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0414V_EXPAD" value="470R 1W"/>
 <part name="C7" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-050X075_EXPAD" value="0.1uF Mylar"/>
 <part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="FR107"/>
 <part name="C8" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-024X044_EXPAD" value="0.1uF"/>
-<part name="R19" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0414V_EXPAD" value="1K 1/2W"/>
+<part name="R19" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0414V_EXPAD" value="1K 5W"/>
 <part name="C9" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-024X044_EXPAD" value="0.1uF"/>
 <part name="GND17" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E7.5-18" package3d_urn="urn:adsk.eagle:package:23379/1" value="1000uF 63V"/>
@@ -19126,9 +18996,9 @@ fast recovery rectifier, 1A</description>
 <part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4007"/>
 <part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4007"/>
 <part name="R27" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="-0207/10_EXPAD" value="10K"/>
-<part name="Q2I" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="8050"/>
+<part name="Q9" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="8050"/>
 <part name="R28" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="-0207/10_EXPAD" value="10K"/>
-<part name="Q1I" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="8050"/>
+<part name="Q8" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="8050"/>
 <part name="GND26" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="C14" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-024X044_EXPAD" value="0.1uF"/>
 <part name="GND27" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
@@ -19140,14 +19010,14 @@ fast recovery rectifier, 1A</description>
 <part name="GND30" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="R32" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="4.7K"/>
 <part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZV10" device="" package3d_urn="urn:adsk.eagle:package:43364/1" value="15V 1/2W"/>
-<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZV10" device="" package3d_urn="urn:adsk.eagle:package:43364/1" value="16V 1/4W"/>
-<part name="C16" library="trosh_devices.eagle.v9" deviceset="CAPACITOR-POL" device="E2,5-7_EXPAD" value="100uF 25V"/>
-<part name="R33" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="100K"/>
+<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZV10" device="" package3d_urn="urn:adsk.eagle:package:43364/1" value="21V 1/4W"/>
+<part name="C16" library="trosh_devices.eagle.v9" deviceset="CAPACITOR-POL" device="E2,5-7_EXPAD" value="10uF 50V"/>
+<part name="R33" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="10K"/>
 <part name="GND31" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND32" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="Q6" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRF9530" device="" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9540"/>
 <part name="R34" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="50K"/>
-<part name="Q1I1" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="2N3904"/>
+<part name="Q10" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="2N3904"/>
 <part name="GND33" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="R35" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="100K"/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="100K"/>
@@ -19178,6 +19048,18 @@ fast recovery rectifier, 1A</description>
 <part name="H4" library="trosh_devices.eagle.v9" deviceset="HEATSINK1" device=""/>
 <part name="H5" library="trosh_devices.eagle.v9" deviceset="HEATSINK1" device=""/>
 <part name="Q5" library="trosh_devices.eagle.v9" deviceset="Q_NPN_TIP31" device="" value="TIP31"/>
+<part name="Q7" library="dp_devices.v6" deviceset="TRANSISTOR_BJT_NPN" device="-TO-92-EBC" value="2N3904"/>
+<part name="R23" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="10K"/>
+<part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZV10" device="" package3d_urn="urn:adsk.eagle:package:43364/1" value="13V 1/4W"/>
+<part name="GND36" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
+<part name="C18" library="trosh_devices.eagle.v9" deviceset="CAPACITOR-POL" device="E2,5-7_EXPAD" value="100uF 25V"/>
+<part name="GND37" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
+<part name="R24" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0414V_EXPAD" value="470R 1W"/>
+<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="FR107"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4933" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="RGP15J"/>
+<part name="J6" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="J" device="5MM" package3d_urn="urn:adsk.eagle:package:15465/1" value="J5MM"/>
+<part name="J7" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="J" device="5MM" package3d_urn="urn:adsk.eagle:package:15465/1" value="J5MM"/>
+<part name="J8" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="J" device="5MM" package3d_urn="urn:adsk.eagle:package:15465/1" value="J5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -19194,7 +19076,7 @@ EBC</text>
 <wire x1="139.7" y1="114.3" x2="139.7" y2="71.12" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="139.7" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="83.82" y1="71.12" x2="83.82" y2="114.3" width="0.1524" layer="98" style="shortdash"/>
-<text x="111.76" y="73.66" size="1.778" layer="98" align="center">48V Input MOD circuit</text>
+<text x="111.76" y="73.66" size="1.778" layer="98" align="center">Switching MOSFET Supply</text>
 <text x="-2.54" y="-27.94" size="1.778" layer="98">91.65 Khz 3.2Vp-p</text>
 <text x="0" y="17.78" size="1.778" layer="98">2.02V</text>
 <text x="40.64" y="10.16" size="1.778" layer="98">5.0V VREF</text>
@@ -19209,8 +19091,6 @@ EBC</text>
 This circuit will cut the power if
 Vout is 18V above</text>
 <text x="193.04" y="101.6" size="1.778" layer="98">Modified R29 to be 10K + 10K + 4.7K</text>
-<text x="177.8" y="170.18" size="1.778" layer="98">Original R26 is 330R 1W
-to 560 + 560 1W</text>
 <text x="71.12" y="157.48" size="1.778" layer="98">Original C11 is 1000uF 50V
 to 1000uF 63V</text>
 <text x="228.6" y="-7.62" size="1.778" layer="98">18 turns
@@ -19234,8 +19114,6 @@ Measured 29.04uH</text>
 <text x="-2.54" y="-30.48" size="1.778" layer="98">108 Khz 3.2Vp-p</text>
 <text x="111.76" y="2.54" size="1.778" layer="98">Vc=10V</text>
 <text x="38.1" y="48.26" size="1.778" layer="98">350R Room Temp</text>
-<text x="210.82" y="165.1" size="1.778" layer="98">17mA diode current</text>
-<text x="208.28" y="53.34" size="1.778" layer="98">~48V</text>
 <text x="71.12" y="-33.02" size="1.778" layer="98" align="center-left">Vdivider, V@R15
 @Vin 24V = 1.552V
 @Vin 48V = 3.103V
@@ -19248,9 +19126,25 @@ R14=130k, R15=4.3k, I=357uA</text>
 Capacitor</text>
 <text x="180.34" y="7.62" size="1.778" layer="98">Vc=3V</text>
 <text x="-81.28" y="30.48" size="1.778" layer="98">calculated=2V</text>
-<text x="144.78" y="38.1" size="1.778" layer="98">Vc=4V WRT Q4 source</text>
 <text x="175.26" y="-22.86" size="1.778" layer="98">Dual Diode
 Peak Repetitive Reverse Voltage: 60V</text>
+<text x="-50.8" y="119.38" size="1.778" layer="98">Changes: 2/1/2020
+R33 from 100k to 10k
+D10 from 16V to 22.2V Zener 16V+6.2V
+C16 from 100uF 25V to 10uF 50V
+Remove D4
+R19 from 1/2W to 5W
+Q4 from 2SK4145 to FQPF50N06
+D3 from FCH30A06 to FCHS20A08
+D5 &amp; D2 from FR107 to RGP15J
+
+New
+Q1I2 - 2N3904
+R23 10K
+R24 470R 1/2W
+D6 13V Zener
+C18 - 100uF 25V
+D4 - FR107</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="22.86" y="2.54" smashed="yes">
@@ -19396,23 +19290,15 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <attribute name="NAME" x="185.42" y="0" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="185.42" y="2.54" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D2" gate="1" x="137.16" y="10.16" smashed="yes">
-<attribute name="NAME" x="134.62" y="15.24" size="1.778" layer="95"/>
-<attribute name="VALUE" x="134.62" y="12.7" size="1.778" layer="96"/>
-</instance>
 <instance part="Q4" gate="Q" x="200.66" y="7.62" smashed="yes">
-<attribute name="VALUE" x="205.74" y="12.7" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="208.28" y="12.7" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="205.74" y="5.08" size="1.778" layer="96"/>
+<attribute name="NAME" x="205.74" y="7.62" size="1.778" layer="95"/>
 </instance>
 <instance part="D3" gate="-B1" x="223.52" y="-20.32" smashed="yes">
 <attribute name="NAME" x="224.282" y="-18.3134" size="1.778" layer="95"/>
 <attribute name="VALUE" x="218.694" y="-23.7744" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="G$1" x="223.52" y="-33.02" smashed="yes"/>
-<instance part="D4" gate="1" x="134.62" y="45.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="129.54" y="43.18" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="132.08" y="43.18" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R18" gate="R" x="165.1" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="163.83" y="28.9814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="163.83" y="31.242" size="1.778" layer="96" rot="R180"/>
@@ -19421,9 +19307,9 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <attribute name="NAME" x="182.88" y="43.18" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="182.88" y="45.72" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D5" gate="1" x="165.1" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="154.94" y="43.6626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="154.94" y="40.8686" size="1.778" layer="96"/>
+<instance part="D5" gate="1" x="165.1" y="53.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="154.94" y="53.8226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.94" y="51.0286" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="175.26" y="12.7" smashed="yes">
 <attribute name="NAME" x="177.8" y="15.24" size="1.778" layer="95"/>
@@ -19483,7 +19369,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <attribute name="NAME" x="177.8" y="147.32" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.8" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2I" gate="Q" x="172.72" y="121.92" smashed="yes">
+<instance part="Q9" gate="Q" x="172.72" y="121.92" smashed="yes">
 <attribute name="NAME" x="177.8" y="121.92" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.8" y="119.38" size="1.778" layer="96"/>
 </instance>
@@ -19491,7 +19377,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <attribute name="NAME" x="189.23" y="136.1186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.23" y="133.858" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1I" gate="Q" x="205.74" y="132.08" smashed="yes">
+<instance part="Q8" gate="Q" x="205.74" y="132.08" smashed="yes">
 <attribute name="NAME" x="208.28" y="132.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="208.28" y="129.54" size="1.778" layer="96"/>
 </instance>
@@ -19546,7 +19432,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <attribute name="NAME" x="234.95" y="235.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="234.95" y="232.918" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1I1" gate="Q" x="231.14" y="218.44" smashed="yes">
+<instance part="Q10" gate="Q" x="231.14" y="218.44" smashed="yes">
 <attribute name="NAME" x="233.68" y="218.44" size="1.778" layer="95"/>
 <attribute name="VALUE" x="233.68" y="215.9" size="1.778" layer="96"/>
 </instance>
@@ -19593,13 +19479,13 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <instance part="T3" gate="T" x="292.1" y="254" smashed="yes" rot="R270">
 <attribute name="NAME" x="292.735" y="256.54" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
 </instance>
-<instance part="H1" gate="G$1" x="281.94" y="162.56" smashed="yes">
-<attribute name="NAME" x="284.734" y="163.1442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="284.734" y="160.0962" size="1.778" layer="96"/>
+<instance part="H1" gate="G$1" x="289.56" y="129.54" smashed="yes">
+<attribute name="NAME" x="292.354" y="130.1242" size="1.778" layer="95"/>
+<attribute name="VALUE" x="292.354" y="127.0762" size="1.778" layer="96"/>
 </instance>
-<instance part="H2" gate="G$1" x="289.56" y="162.56" smashed="yes">
-<attribute name="NAME" x="292.354" y="163.1442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="292.354" y="160.0962" size="1.778" layer="96"/>
+<instance part="H2" gate="G$1" x="297.18" y="129.54" smashed="yes">
+<attribute name="NAME" x="299.974" y="130.1242" size="1.778" layer="95"/>
+<attribute name="VALUE" x="299.974" y="127.0762" size="1.778" layer="96"/>
 </instance>
 <instance part="T2" gate="T" x="358.14" y="-12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="358.775" y="-10.16" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
@@ -19623,31 +19509,73 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <attribute name="NAME" x="198.12" y="-14.605" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="198.12" y="-10.16" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J5" gate="1" x="287.02" y="152.4" smashed="yes">
-<attribute name="NAME" x="284.48" y="154.305" size="1.778" layer="95"/>
-<attribute name="VALUE" x="284.48" y="149.86" size="1.778" layer="96"/>
+<instance part="J5" gate="1" x="294.64" y="119.38" smashed="yes">
+<attribute name="NAME" x="292.1" y="121.285" size="1.778" layer="95"/>
+<attribute name="VALUE" x="292.1" y="116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="GND21" gate="G$1" x="281.94" y="149.86" smashed="yes"/>
-<instance part="GND35" gate="G$1" x="292.1" y="149.86" smashed="yes"/>
+<instance part="GND21" gate="G$1" x="289.56" y="116.84" smashed="yes"/>
+<instance part="GND35" gate="G$1" x="299.72" y="116.84" smashed="yes"/>
 <instance part="L2" gate="G$1" x="236.22" y="-12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="232.41" y="-11.2014" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="-16.002" size="1.778" layer="96"/>
 </instance>
-<instance part="H3" gate="G$1" x="198.12" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="194.945" y="26.035" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="197.485" y="26.035" size="1.778" layer="96" rot="R90"/>
+<instance part="H3" gate="G$1" x="294.64" y="81.28" smashed="yes">
+<attribute name="NAME" x="300.355" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="300.355" y="81.915" size="1.778" layer="96"/>
 </instance>
-<instance part="H4" gate="G$1" x="223.52" y="-40.64" smashed="yes">
-<attribute name="NAME" x="229.235" y="-37.465" size="1.778" layer="95"/>
-<attribute name="VALUE" x="229.235" y="-40.005" size="1.778" layer="96"/>
+<instance part="H4" gate="G$1" x="294.64" y="93.98" smashed="yes">
+<attribute name="NAME" x="300.355" y="97.155" size="1.778" layer="95"/>
+<attribute name="VALUE" x="300.355" y="94.615" size="1.778" layer="96"/>
 </instance>
-<instance part="H5" gate="G$1" x="91.44" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="88.265" y="86.995" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="90.805" y="86.995" size="1.778" layer="96" rot="R90"/>
+<instance part="H5" gate="G$1" x="294.64" y="106.68" smashed="yes">
+<attribute name="NAME" x="300.355" y="109.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="300.355" y="107.315" size="1.778" layer="96"/>
 </instance>
 <instance part="Q5" gate="G$1" x="111.76" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.76" y="109.22" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="111.76" y="106.68" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="Q7" gate="Q" x="38.1" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.56" y="121.92" size="1.778" layer="95"/>
+<attribute name="VALUE" x="35.56" y="119.38" size="1.778" layer="96"/>
+</instance>
+<instance part="R23" gate="R" x="30.48" y="109.22" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.86" y="109.22" size="1.778" layer="95"/>
+<attribute name="VALUE" x="22.86" y="106.68" size="1.778" layer="96"/>
+</instance>
+<instance part="D6" gate="1" x="30.48" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.02" y="101.6" size="1.778" layer="95"/>
+<attribute name="VALUE" x="33.02" y="99.06" size="1.778" layer="96"/>
+</instance>
+<instance part="GND36" gate="G$1" x="30.48" y="96.52" smashed="yes"/>
+<instance part="C18" gate="G$1" x="45.72" y="109.22" smashed="yes">
+<attribute name="NAME" x="49.403" y="109.7026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="49.403" y="107.1626" size="1.778" layer="96"/>
+</instance>
+<instance part="GND37" gate="G$1" x="45.72" y="96.52" smashed="yes"/>
+<instance part="R24" gate="R" x="50.8" y="116.84" smashed="yes" rot="R180">
+<attribute name="NAME" x="50.8" y="111.76" size="1.778" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="50.8" y="114.3" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="D4" gate="1" x="60.96" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="50.8" y="124.9426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="122.1486" size="1.778" layer="96"/>
+</instance>
+<instance part="D2" gate="1" x="137.16" y="10.16" smashed="yes">
+<attribute name="NAME" x="137.16" y="15.24" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="137.16" y="12.7" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="J6" gate="1" x="165.1" y="43.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="167.005" y="45.72" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="162.56" y="45.72" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="J7" gate="1" x="30.48" y="121.92" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.86" y="124.46" size="1.778" layer="95"/>
+<attribute name="VALUE" x="22.86" y="121.92" size="1.778" layer="96"/>
+</instance>
+<instance part="J8" gate="1" x="60.96" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="53.34" y="137.16" size="1.778" layer="95"/>
+<attribute name="VALUE" x="53.34" y="134.62" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19761,7 +19689,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <pinref part="LED1" gate="LED" pin="C"/>
 </segment>
 <segment>
-<pinref part="Q1I" gate="Q" pin="E"/>
+<pinref part="Q8" gate="Q" pin="E"/>
 <pinref part="GND26" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -19769,7 +19697,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <pinref part="GND27" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q2I" gate="Q" pin="E"/>
+<pinref part="Q9" gate="Q" pin="E"/>
 <pinref part="GND28" gate="G$1" pin="GND"/>
 <wire x1="175.26" y1="111.76" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -19792,7 +19720,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <pinref part="GND32" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q1I1" gate="Q" pin="E"/>
+<pinref part="Q10" gate="Q" pin="E"/>
 <pinref part="GND33" gate="G$1" pin="GND"/>
 <wire x1="233.68" y1="210.82" x2="233.68" y2="213.36" width="0.1524" layer="91"/>
 </segment>
@@ -19820,6 +19748,15 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <pinref part="J5" gate="1" pin="2"/>
 <pinref part="GND35" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="D6" gate="1" pin="A"/>
+<pinref part="GND36" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="-"/>
+<pinref part="GND37" gate="G$1" pin="GND"/>
+<wire x1="45.72" y1="99.06" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -19839,16 +19776,13 @@ Peak Repetitive Reverse Voltage: 60V</text>
 </net>
 <net name="VOUT" class="0">
 <segment>
-<wire x1="241.3" y1="-12.7" x2="251.46" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-12.7" x2="256.54" y2="-12.7" width="0.1524" layer="91"/>
 <label x="345.44" y="-12.7" size="1.778" layer="95"/>
-<pinref part="D4" gate="1" pin="A"/>
-<wire x1="251.46" y1="-12.7" x2="256.54" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="-12.7" x2="264.16" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="-12.7" x2="289.56" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="-12.7" x2="309.88" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="-12.7" x2="322.58" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-12.7" x2="335.28" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="251.46" y="-12.7"/>
 <pinref part="C12" gate="G$1" pin="+"/>
 <wire x1="256.54" y1="-17.78" x2="256.54" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="256.54" y="-12.7"/>
@@ -19858,9 +19792,6 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <pinref part="R25" gate="R" pin="2"/>
 <wire x1="335.28" y1="-15.24" x2="335.28" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="335.28" y="-12.7"/>
-<wire x1="251.46" y1="-12.7" x2="251.46" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="68.58" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R10" gate="R" pin="1"/>
 <wire x1="322.58" y1="-20.32" x2="322.58" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="322.58" y="-12.7"/>
@@ -19877,6 +19808,11 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <pinref part="D9" gate="1" pin="C"/>
 <wire x1="160.02" y1="142.24" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
 <label x="160.02" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J8" gate="1" pin="1"/>
+<wire x1="60.96" y1="139.7" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
+<label x="60.96" y="142.24" size="1.778" layer="95" align="bottom-center"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -19951,7 +19887,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <junction x="35.56" y="58.42"/>
 </segment>
 </net>
-<net name="+V" class="0">
+<net name="+48V" class="0">
 <segment>
 <wire x1="127" y1="175.26" x2="124.46" y2="175.26" width="0.1524" layer="91"/>
 <label x="88.9" y="175.26" size="1.778" layer="95"/>
@@ -19971,7 +19907,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 </segment>
 <segment>
 <pinref part="Q4" gate="Q" pin="D"/>
-<label x="203.2" y="53.34" size="1.778" layer="95"/>
+<label x="203.2" y="53.34" size="1.778" layer="95" align="bottom-center"/>
 <wire x1="203.2" y1="50.8" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="50.8" x2="203.2" y2="12.7" width="0.1524" layer="91"/>
 </segment>
@@ -19983,6 +19919,11 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <wire x1="101.6" y1="104.14" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="104.14" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
 <junction x="101.6" y="104.14"/>
+</segment>
+<segment>
+<pinref part="J7" gate="1" pin="1"/>
+<wire x1="30.48" y1="127" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
+<label x="30.48" y="129.54" size="1.778" layer="95" align="bottom-center"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -20025,8 +19966,6 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R16" gate="R" pin="1"/>
-<pinref part="D2" gate="1" pin="A"/>
-<wire x1="132.08" y1="10.16" x2="134.62" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="0" x2="132.08" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R19" gate="R" pin="1"/>
 <pinref part="Q1" gate="Q" pin="C"/>
@@ -20036,6 +19975,8 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <wire x1="132.08" y1="5.08" x2="109.22" y2="5.08" width="0.1524" layer="91"/>
 <junction x="132.08" y="5.08"/>
 <junction x="109.22" y="5.08"/>
+<pinref part="D2" gate="1" pin="A"/>
+<wire x1="134.62" y1="10.16" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -20056,29 +19997,24 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <segment>
 <pinref part="Q3" gate="Q" pin="C"/>
 <wire x1="165.1" y1="20.32" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="D4" gate="1" pin="C"/>
 <wire x1="165.1" y1="22.86" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R18" gate="R" pin="2"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <junction x="165.1" y="22.86"/>
 <pinref part="R19" gate="R" pin="2"/>
-<wire x1="165.1" y1="22.86" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="22.86" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="25.4" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="15.24" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="43.18" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
-<junction x="134.62" y="22.86"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R18" gate="R" pin="1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="D5" gate="1" pin="C"/>
-<wire x1="165.1" y1="40.64" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="38.1" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="J6" gate="1" pin="2"/>
 <junction x="165.1" y="38.1"/>
 </segment>
 </net>
@@ -20098,7 +20034,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <net name="N$25" class="0">
 <segment>
 <pinref part="R27" gate="R" pin="1"/>
-<pinref part="Q2I" gate="Q" pin="C"/>
+<pinref part="Q9" gate="Q" pin="C"/>
 <wire x1="175.26" y1="127" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R28" gate="R" pin="1"/>
 <wire x1="175.26" y1="132.08" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
@@ -20109,13 +20045,13 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R28" gate="R" pin="2"/>
-<pinref part="Q1I" gate="Q" pin="B"/>
+<pinref part="Q8" gate="Q" pin="B"/>
 <wire x1="198.12" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="Q2I" gate="Q" pin="B"/>
+<pinref part="Q9" gate="Q" pin="B"/>
 <pinref part="R29" gate="R" pin="1"/>
 <wire x1="165.1" y1="119.38" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
@@ -20196,8 +20132,6 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R16" gate="R" pin="2"/>
-<pinref part="D2" gate="1" pin="C"/>
-<wire x1="139.7" y1="10.16" x2="142.24" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="10.16" x2="142.24" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="Q" pin="B"/>
 <pinref part="Q2" gate="Q" pin="B"/>
@@ -20209,41 +20143,8 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <wire x1="142.24" y1="5.08" x2="152.4" y2="5.08" width="0.1524" layer="91"/>
 <junction x="142.24" y="5.08"/>
 <junction x="152.4" y="5.08"/>
-</segment>
-</net>
-<net name="+15V" class="0">
-<segment>
-<pinref part="C16" gate="G$1" pin="+"/>
-<wire x1="119.38" y1="104.14" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
-<label x="127" y="104.14" size="1.778" layer="95" align="center-left"/>
-<pinref part="Q5" gate="G$1" pin="E"/>
-<wire x1="116.84" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
-<junction x="119.38" y="104.14"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="38.1" y1="17.78" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
-<label x="38.1" y="38.1" size="1.778" layer="95"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="33.02" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
-<junction x="38.1" y="33.02"/>
-</segment>
-<segment>
-<pinref part="R31" gate="R" pin="2"/>
-<wire x1="60.96" y1="5.08" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
-<label x="60.96" y="10.16" size="1.778" layer="95"/>
-<pinref part="R14" gate="R" pin="2"/>
-<wire x1="60.96" y1="7.62" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="5.08" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="7.62" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
-<junction x="60.96" y="7.62"/>
-</segment>
-<segment>
-<pinref part="D5" gate="1" pin="A"/>
-<wire x1="165.1" y1="45.72" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
-<label x="165.1" y="50.8" size="1.778" layer="95"/>
+<pinref part="D2" gate="1" pin="C"/>
+<wire x1="139.7" y1="10.16" x2="142.24" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -20283,7 +20184,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <net name="N$31" class="0">
 <segment>
 <pinref part="R34" gate="R" pin="1"/>
-<pinref part="Q1I1" gate="Q" pin="C"/>
+<pinref part="Q10" gate="Q" pin="C"/>
 <wire x1="233.68" y1="223.52" x2="233.68" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20310,7 +20211,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <pinref part="J1" gate="J" pin="1"/>
 <wire x1="200.66" y1="226.06" x2="213.36" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="226.06" x2="213.36" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="Q1I1" gate="Q" pin="B"/>
+<pinref part="Q10" gate="Q" pin="B"/>
 <wire x1="228.6" y1="218.44" x2="200.66" y2="218.44" width="0.1524" layer="91"/>
 <junction x="200.66" y="218.44"/>
 </segment>
@@ -20422,7 +20323,7 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <segment>
 <pinref part="D8" gate="1" pin="A"/>
 <wire x1="198.12" y1="144.78" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="Q1I" gate="Q" pin="C"/>
+<pinref part="Q8" gate="Q" pin="C"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="134.62" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R29" gate="R" pin="2"/>
@@ -20445,6 +20346,96 @@ Peak Repetitive Reverse Voltage: 60V</text>
 <wire x1="111.76" y1="99.06" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="91.44" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
 <junction x="101.6" y="91.44"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="R23" gate="R" pin="2"/>
+<pinref part="D6" gate="1" pin="C"/>
+<pinref part="Q7" gate="Q" pin="B"/>
+<wire x1="30.48" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="104.14" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
+<junction x="30.48" y="104.14"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="C18" gate="G$1" pin="+"/>
+<pinref part="Q7" gate="Q" pin="E"/>
+<wire x1="45.72" y1="111.76" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R24" gate="R" pin="2"/>
+<junction x="45.72" y="116.84"/>
+</segment>
+</net>
+<net name="+12.4V" class="0">
+<segment>
+<pinref part="R24" gate="R" pin="1"/>
+<wire x1="55.88" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+<label x="66.04" y="116.84" size="1.778" layer="95"/>
+<pinref part="D4" gate="1" pin="C"/>
+<wire x1="60.96" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="121.92" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+<junction x="60.96" y="116.84"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
+<wire x1="38.1" y1="17.78" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+<label x="38.1" y="38.1" size="1.778" layer="95"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="33.02" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+<junction x="38.1" y="33.02"/>
+</segment>
+<segment>
+<pinref part="R31" gate="R" pin="2"/>
+<label x="60.96" y="10.16" size="1.778" layer="95" align="bottom-center"/>
+<wire x1="60.96" y1="5.08" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+21.6V" class="0">
+<segment>
+<pinref part="C16" gate="G$1" pin="+"/>
+<wire x1="119.38" y1="104.14" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
+<label x="127" y="104.14" size="1.778" layer="95" align="center-left"/>
+<pinref part="Q5" gate="G$1" pin="E"/>
+<wire x1="116.84" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
+<junction x="119.38" y="104.14"/>
+</segment>
+<segment>
+<pinref part="R14" gate="R" pin="2"/>
+<wire x1="76.2" y1="5.08" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
+<label x="76.2" y="10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D5" gate="1" pin="A"/>
+<wire x1="165.1" y1="55.88" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
+<label x="165.1" y="60.96" size="1.778" layer="95" align="bottom-center"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="D5" gate="1" pin="C"/>
+<pinref part="J6" gate="1" pin="1"/>
+<wire x1="165.1" y1="50.8" x2="165.1" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="Q7" gate="Q" pin="C"/>
+<pinref part="J7" gate="1" pin="2"/>
+<wire x1="33.02" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R23" gate="R" pin="1"/>
+<wire x1="30.48" y1="116.84" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
+<junction x="30.48" y="116.84"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="J8" gate="1" pin="2"/>
+<pinref part="D4" gate="1" pin="A"/>
+<wire x1="60.96" y1="129.54" x2="60.96" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
