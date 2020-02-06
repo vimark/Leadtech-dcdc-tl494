@@ -1,3 +1,8 @@
 *.log
 *.raw
 *.plt
+*.bak*
+*.inx
+*.TNO
+*.DDNO
+*.DNO

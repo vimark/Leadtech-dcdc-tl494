@@ -2459,7 +2459,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <attribute name="NAME" x="6.35" y="11.43" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="5.3594" y="10.795" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R29" library="trosh_devices.eagle.v9" package="0207/10_EXPAD" value="10K" x="5.08" y="25.4" smashed="yes" rot="R270">
+<element name="R29" library="trosh_devices.eagle.v9" package="0207/10_EXPAD" value="22K" x="5.08" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.08" y="24.13" size="1.27" layer="25" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="4.445" y="27.6606" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>

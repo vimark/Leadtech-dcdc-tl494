@@ -19003,7 +19003,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <part name="C14" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-024X044_EXPAD" value="0.1uF"/>
 <part name="GND27" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND28" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="R29" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="-0207/10_EXPAD" value="10K"/>
+<part name="R29" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="-0207/10_EXPAD" value="22K"/>
 <part name="C15" library="trosh_devices.eagle.v9" deviceset="CAPACITOR" device="C050-024X044_EXPAD" value="0.1uF"/>
 <part name="GND29" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="R30" library="trosh_devices.eagle.v9" deviceset="RESISTOR" device="0207/2V_EXPAD" value="1K"/>
@@ -19067,11 +19067,10 @@ grid 2.54 mm, diameter 7 mm</description>
 <text x="-45.72" y="35.56" size="1.778" layer="91" align="center-right">check this -&gt;</text>
 <text x="38.1" y="53.34" size="1.778" layer="91" align="center-left">Thermal Resistor
 Near Heatsink</text>
-<text x="137.16" y="172.72" size="1.778" layer="91" align="center-left">Wired to NO</text>
+<text x="129.54" y="167.64" size="1.778" layer="91" align="center-left">Wired to NO</text>
 <text x="38.1" y="2.54" size="1.778" layer="91" align="center-left">NC</text>
 <text x="111.76" y="-12.7" size="1.778" layer="91" align="center-left">check pinout
 EBC</text>
-<text x="213.36" y="147.32" size="1.778" layer="98">Will turn off if VOUT &gt;20V</text>
 <wire x1="83.82" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="139.7" y1="114.3" x2="139.7" y2="71.12" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="139.7" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="98" style="shortdash"/>
@@ -19086,11 +19085,10 @@ EBC</text>
 <text x="0" y="-2.54" size="1.778" layer="98">3.40V</text>
 <text x="-35.56" y="30.48" size="1.778" layer="98">calculated=0.455V</text>
 <text x="307.34" y="-10.16" size="1.778" layer="98">calibrated to 14V</text>
-<text x="-12.7" y="73.66" size="1.778" layer="98">5.0V VREF</text>
-<text x="193.04" y="106.68" size="1.778" layer="98">On the original design Vin = 24V
+<text x="-12.7" y="73.66" size="1.778" layer="98">5.043V VREF</text>
+<text x="185.42" y="111.76" size="1.778" layer="98">On the original design Vin = 24V
 This circuit will cut the power if
-Vout is 18V above</text>
-<text x="193.04" y="101.6" size="1.778" layer="98">Modified R29 to be 10K + 10K + 4.7K</text>
+Vout is &gt; 18V</text>
 <text x="71.12" y="157.48" size="1.778" layer="98">Original C11 is 1000uF 50V
 to 1000uF 63V</text>
 <text x="228.6" y="-7.62" size="1.778" layer="98">18 turns
@@ -19108,7 +19106,7 @@ Measured 29.04uH</text>
 <text x="243.84" y="177.8" size="1.778" layer="98">Input Vf = 1.2V</text>
 <text x="289.56" y="185.42" size="1.778" layer="98">To Arduino wake-up SW</text>
 <text x="297.18" y="256.54" size="1.778" layer="98">48V Input</text>
-<text x="363.22" y="-17.78" size="1.778" layer="98">14V out</text>
+<text x="363.22" y="-17.78" size="1.778" layer="98">14.10V out</text>
 <text x="215.9" y="248.92" size="1.778" layer="98">replace this with smaller P-MOSFET</text>
 <text x="106.68" y="96.52" size="1.778" layer="98" align="center">17mA</text>
 <text x="-2.54" y="-30.48" size="1.778" layer="98">108 Khz 3.2Vp-p</text>
@@ -19137,6 +19135,7 @@ R19 from 1/2W to 5W
 Q4 from 2SK4145 to FQPF50N06
 D3 from FCH30A06 to FCHS20A08
 D5 &amp; D2 from FR107 to RGP15J
+R29 from 10K to 22K
 
 New
 Q1I2 - 2N3904
@@ -19145,6 +19144,13 @@ R24 470R 1/2W
 D6 13V Zener
 C18 - 100uF 25V
 D4 - FR107</text>
+<text x="27.94" y="116.84" size="1.778" layer="98" align="center-right">12.84V</text>
+<text x="45.72" y="119.38" size="1.778" layer="98">13.47V</text>
+<text x="66.04" y="119.38" size="1.778" layer="98">13.47V</text>
+<wire x1="147.32" y1="193.04" x2="228.6" y2="193.04" width="0.1524" layer="98" style="longdash"/>
+<wire x1="228.6" y1="193.04" x2="228.6" y2="101.6" width="0.1524" layer="98" style="longdash"/>
+<wire x1="228.6" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="98" style="longdash"/>
+<wire x1="147.32" y1="101.6" x2="147.32" y2="193.04" width="0.1524" layer="98" style="longdash"/>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="22.86" y="2.54" smashed="yes">
@@ -19387,7 +19393,7 @@ D4 - FR107</text>
 <attribute name="VALUE" x="220.98" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="GND27" gate="G$1" x="218.44" y="124.46" smashed="yes"/>
-<instance part="GND28" gate="G$1" x="175.26" y="109.22" smashed="yes"/>
+<instance part="GND28" gate="G$1" x="175.26" y="106.68" smashed="yes"/>
 <instance part="R29" gate="R" x="165.1" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.37" y="131.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="166.37" y="128.778" size="1.778" layer="96"/>
@@ -19699,7 +19705,7 @@ D4 - FR107</text>
 <segment>
 <pinref part="Q9" gate="Q" pin="E"/>
 <pinref part="GND28" gate="G$1" pin="GND"/>
-<wire x1="175.26" y1="111.76" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="109.22" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>

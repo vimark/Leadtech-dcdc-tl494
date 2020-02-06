@@ -4,10 +4,10 @@ Version=12.00
 Program=Micro-Cap
 Component Version=10.00
 Shape Version=11.00
-Screen=1600,900
+Screen=1920,1080
 MCAPVersion=12.2.0.3
 Key ID=Demo
-NLCnt=48
+NLCnt=56
 TXCnt=1
 
 [shapedef]
@@ -99,7 +99,6 @@ Name=Animated Relay
 Definition=ANIMATED RELAY
 Shape=Animated Relay
 Mask=4096
-Used=1
 memo=Animated Relay
 Label Offset=58,3,14,1
 PinCnt=4
@@ -113,7 +112,6 @@ Name=1N4007
 Definition=Diode
 Shape=Diode
 Mask=4224
-Used=1
 memo=General Purpose Rectifier Vr=1000V Io=1A
 Label Offset=18,10,12,12
 PinCnt=2
@@ -125,7 +123,7 @@ Name=Battery
 Definition=Battery
 Shape=Battery
 Mask=7425
-Used=55
+Used=52
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -136,8 +134,8 @@ Pin="Minus",0,0,-10,-5
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=257
-Used=261
+Mask=1793
+Used=258
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -147,8 +145,8 @@ Pin="PinA",0,0,-3,-7
 Name=Resistor
 Definition=Resistor
 Shape=Resistor
-Mask=7425
-Used=169
+Mask=6401
+Used=153
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -160,7 +158,7 @@ Name=SS8050
 Definition=NPN
 Shape=NPN
 Mask=5760
-Used=9
+Used=7
 memo=On Semi
 Label Offset=37,-17,-14,33
 PinCnt=3
@@ -173,7 +171,6 @@ Name=1N965A
 Definition=Diode
 Shape=Zener
 Mask=4224
-Used=1
 memo=Zener Diode Vz=15V Izt=8.5mA Zzt=16ohm
 Label Offset=18,10,12,12
 PinCnt=2
@@ -201,8 +198,8 @@ SpiceType=AMBIGUOUS
 Title_Block_Border=None
 Title_Block=False
 Show Nodes=False
-Show Voltages=False
-Show Current=True
+Show Voltages=True
+Show Current=False
 Show Power=False
 Show Condition=False
 Show Pin Connections=False
@@ -228,15 +225,15 @@ V=100m
 
 [Attr]
 ON=58,31,RIN
-V=100
+V=1.64k
 
 [Attr]
 ON=58,45,ION
-V=20m
+V=10m
 
 [Attr]
 ON=58,59,IOFF
-V=18m
+V=9m
 
 [Attr]
 ON=58,73,RON
@@ -285,7 +282,7 @@ Style=8192
 
 [Attr]
 ON=-34,-42,VALUE
-V=48V
+V=51
 Style=8192
 
 [Attr]
@@ -393,8 +390,8 @@ Pxs=616,480,656,480
 
 [Comp]
 Name=Resistor
-Px=544,336
-COff=8,562,342,-10,31
+Px=536,328
+COff=8,554,334,-53,30
 
 [Attr]
 ON=18,6,PART
@@ -436,11 +433,12 @@ Pxs=544,232,616,232
 Pxs=544,232,544,248
 
 [Wire]
-Pxs=544,296,544,336
+Pxs=528,296,528,352
 
 [Comp]
 Name=SS8050
 Px=520,392
+COff=8,520,392,-65,12
 
 [Attr]
 ON=39,-17,PART
@@ -456,7 +454,7 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=544,336,544,368
+Pxs=536,328,536,352
 
 [Wire]
 Pxs=544,416,544,480
@@ -468,6 +466,7 @@ Pxs=544,480,616,480
 Name=Battery
 Px=312,448
 Rot=5
+COff=8,322,421,3,-17
 
 [Attr]
 ON=10,-27,PART
@@ -475,8 +474,8 @@ V=V2
 Style=8192
 
 [Attr]
-ON=5,-41,VALUE
-V=17V
+ON=-39,-40,VALUE
+V=13
 Style=8192
 
 [Attr]
@@ -539,7 +538,7 @@ Style=8192
 
 [Attr]
 ON=8,-39,RESISTANCE
-V=10k
+V=22k
 Style=8192
 
 [Attr]
@@ -548,7 +547,7 @@ V
 
 [Comp]
 Name=1N965A
-Px=368,280
+Px=368,256
 Rot=1
 
 [Attr]
@@ -580,10 +579,10 @@ Pxs=368,464,368,480
 Pxs=368,480,544,480
 
 [Wire]
-Pxs=312,280,368,280
+Pxs=312,248,368,248
 
 [Wire]
-Pxs=312,280,312,400
+Pxs=312,248,312,400
 
 [Wire]
 Pxs=432,376,432,392
@@ -600,10 +599,34 @@ Pxs=432,312,432,328
 [Wire]
 Pxs=616,120,616,128
 
+[Wire]
+Pxs=528,352,536,352
+
+[Wire]
+Pxs=544,352,544,368
+
+[Wire]
+Pxs=528,296,544,296
+
+[Wire]
+Pxs=592,328,592,336
+
+[Wire]
+Pxs=584,328,592,328
+
+[Wire]
+Pxs=536,352,544,352
+
+[Wire]
+Pxs=368,248,368,256
+
+[Wire]
+Pxs=368,304,368,328
+
 [Grid Text]
 Text="Dynamic DC"
 Text="Temperature=27"
-Text="Displaying DC Currents"
+Text="Displaying DC Voltages"
 Text="PGT = Total power generated = [PGT]"
 Text="PDT = Total power dissipated = [PDT]"
 BannerDC=True
@@ -626,7 +649,7 @@ CurrentSection 3=0
 Splitter.xs=0
 Splitter.ys=0
 TextQuad=4099
-Scale=0.5
+Scale=0.66666666666666663
 GridUser=10
 ShapeGroups="Main","Euro","Polarity","Main1","Main11","Electrolytic","GroundArrow","DeMorgan"
 CalcRMS=False
@@ -814,9 +837,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=50,118
-Scale 3=0.66839378238341973
-Px=330,412
+SB 3=0,48
+Scale 3=0.59974587039390093
+Px=206,360
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1913,6 +1936,22 @@ Col Width Rnd=50
 [WCFiles]
 UseFile=<Library>Standard.tlib
 AVAILABLE_FILE=<Library>Standard.tlib
+
+[Slider]
+Analysis=DynamicDC
+Link="V2"
+Min="0V"
+Max="25V"
+Default="5V"
+Format=3
+Method=Linear
+Show=True
+Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
+StepSize="1V"
+MRUDockID=59421
+Floating=False
+LocalOffset=True
+Rect=-2,-2,44,158
 
 [OPMethods]
 Analysis=Transient
