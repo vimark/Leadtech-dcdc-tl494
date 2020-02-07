@@ -4,10 +4,10 @@ Version=12.00
 Program=Micro-Cap
 Component Version=10.00
 Shape Version=11.00
-Screen=1600,900
+Screen=1920,1080
 MCAPVersion=12.2.0.3
 Key ID=Demo
-NLCnt=114
+NLCnt=109
 TXCnt=6
 
 [shapedef]
@@ -190,7 +190,7 @@ Name=Battery
 Definition=Battery
 Shape=Battery
 Mask=7425
-Used=55
+Used=52
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -201,8 +201,8 @@ Pin="Minus",0,0,-10,-5
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=257
-Used=262
+Mask=1793
+Used=258
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -212,8 +212,8 @@ Pin="PinA",0,0,-3,-7
 Name=Diode
 Definition=Diode
 Shape=Diode
-Mask=5377
-Used=13
+Mask=4097
+Used=11
 memo=Diode
 Label Offset=17,10,12,12
 PinCnt=2
@@ -225,7 +225,7 @@ Name=Resistor
 Definition=Resistor
 Shape=Resistor
 Mask=6401
-Used=170
+Used=153
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -236,8 +236,8 @@ Pin="Minus",0,0,-14,-4
 Name=NPN
 Definition=NPN
 Shape=NPN
-Mask=4097
-Used=14
+Mask=5633
+Used=12
 memo=NPN Transistor
 Label Offset=37,-17,-14,33
 PinCnt=3
@@ -249,8 +249,8 @@ Pin="Emitter",3,3,5,1
 Name=PNP
 Definition=PNP
 Shape=PNP
-Mask=4097
-Used=1
+Mask=4609
+Used=3
 memo=PNP Transistor
 Label Offset=37,-13,-8,35
 PinCnt=3
@@ -262,8 +262,7 @@ Pin="Emitter",3,-3,6,15
 Name=MUR3015PTD
 Definition=Subckt
 Shape=Rectifier
-Mask=6016
-Used=1
+Mask=4224
 memo=Dual Ultrafast Rectifiers Vr=150V If=30A
 Label Offset=22,9,-32,18
 PinCnt=3
@@ -276,7 +275,7 @@ Name=Inductor
 Definition=Inductor
 Shape=Inductor
 Mask=7681
-Used=31
+Used=28
 memo=Inductor
 Label Offset=18,9,11,12
 PinCnt=2
@@ -288,7 +287,7 @@ Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
 Mask=6401
-Used=27
+Used=26
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -299,8 +298,8 @@ Pin="Minus",0,0,-14,-5
 Name=Voltage Source
 Definition=VSpice
 Shape=SPICE_V
-Mask=5377
-Used=40
+Mask=4865
+Used=38
 memo=Voltage Source
 Label Offset=19,13,15,13
 PinCnt=2
@@ -312,7 +311,6 @@ Name=TIP31C
 Definition=NPN
 Shape=NPN
 Mask=4224
-Used=1
 memo=NPN Power Transistor Vceo=100V Ic=3A Pd=40W
 Label Offset=29,-11,-6,26
 PinCnt=3
@@ -322,35 +320,10 @@ Pin="Emitter",3,3,6,4
 Power=40
 
 [compdef]
-Name=1N965A
-Definition=Diode
-Shape=Zener
-Mask=4224
-Used=2
-memo=Zener Diode Vz=15V Izt=8.5mA Zzt=16ohm
-Label Offset=18,10,12,12
-PinCnt=2
-Pin="Anode",6,0,-13,-8
-Pin="Cathode",0,0,-27,-8
-
-[compdef]
-Name=1N753
-Definition=Diode
-Shape=Zener
-Mask=4224
-Used=1
-memo=Zener Diode Vz=6.2V Izt=20mA Zzt=7ohm
-Label Offset=18,10,12,12
-PinCnt=2
-Pin="Anode",6,0,-13,-8
-Pin="Cathode",0,0,-27,-8
-
-[compdef]
 Name=FQPF50N06
 Definition=Subckt
 Shape=DNMOS
 Mask=6272
-Used=1
 memo=On Semi
 Label Offset=0,0,0,0
 PinCnt=3
@@ -363,8 +336,19 @@ Name=RGP10J
 Definition=Diode
 Shape=Diode
 Mask=4224
-Used=1
 memo=Glass Passivated Junction Fast Switching Rectifier Vr=600V If=1A
+Label Offset=18,10,12,12
+PinCnt=2
+Pin="Anode",6,0,-13,-8
+Pin="Cathode",0,0,-27,-8
+
+[compdef]
+Name=1N968A
+Definition=Diode
+Shape=Zener
+Mask=4224
+Used=1
+memo=Zener Diode Vz=20V Izt=6.2mA Zzt=25ohm
 Label Offset=18,10,12,12
 PinCnt=2
 Pin="Anode",6,0,-13,-8
@@ -386,7 +370,7 @@ GridTextFormulaFormat=3
 Window Placement in Transient Analysis=2,3, -1,-1, -8,-31, 208,208,1591,656
 SpiceType=AMBIGUOUS
 Title_Block_Border=None
-Title_Block=True
+Title_Block=False
 Show Nodes=False
 Show Voltages=False
 Show Current=False
@@ -759,7 +743,7 @@ V
 Pxs=968,584,1040,584
 
 [Wire]
-Pxs=1088,584,1128,584
+Pxs=1088,584,1144,584
 
 [Wire]
 Pxs=1216,584,1216,616
@@ -794,7 +778,7 @@ Style=8192
 
 [Attr]
 ON=15,-41,VALUE
-V=DC 0 AC 1 0 Pulse 0 12 0 0 0 8u 10u
+V=DC 0 AC 1 0 Pulse 0 12 0 0 0 5u 10u
 Style=4096
 
 [Attr]
@@ -823,7 +807,7 @@ Style=256
 
 [Attr]
 ON=0,0,Saved_Pulse
-V=DC 0 AC 1 0 Pulse 0 12 0 0 0 8u 10u
+V=DC 0 AC 1 0 Pulse 0 12 0 0 0 5u 10u
 Style=256
 
 [Attr]
@@ -935,7 +919,7 @@ Pxs=656,480,728,480
 
 [Comp]
 Name=Capacitor
-Px=864,408
+Px=872,408
 Rot=3
 
 [Attr]
@@ -953,16 +937,16 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=864,408,864,584
+Pxs=872,408,872,584
 
 [Wire]
-Pxs=864,584,896,584
+Pxs=840,584,872,584
 
 [Wire]
-Pxs=864,344,864,360
+Pxs=872,344,872,360
 
 [Wire]
-Pxs=816,344,864,344
+Pxs=816,344,872,344
 
 [Wire]
 Pxs=816,344,816,352
@@ -979,7 +963,7 @@ Style=8192
 
 [Attr]
 ON=12,26,CAPACITANCE
-V=200n
+V=100n
 Style=8192
 
 [Attr]
@@ -991,18 +975,6 @@ Pxs=816,408,840,408
 
 [Wire]
 Pxs=840,464,840,584
-
-[Wire]
-Pxs=840,584,864,584
-
-[Wire]
-Pxs=840,224,1128,224
-
-[Wire]
-Pxs=1128,224,1128,584
-
-[Wire]
-Pxs=1128,584,1144,584
 
 [Wire]
 Pxs=840,408,840,416
@@ -1028,42 +1000,6 @@ V=40
 [Attr]
 ON=29,45,PACKAGE
 V=TO-220AB
-
-[Comp]
-Name=1N965A
-Px=1256,352
-Rot=1
-
-[Attr]
-ON=18,10,PART
-V=D5
-Style=8192
-
-[Attr]
-ON=18,24,MODEL
-V=1N965A
-
-[Attr]
-ON=18,52,PACKAGE
-V=DO-204AH
-
-[Comp]
-Name=1N753
-Px=1256,424
-Rot=1
-
-[Attr]
-ON=18,10,PART
-V=D6
-Style=8192
-
-[Attr]
-ON=18,24,MODEL
-V=1N753
-
-[Attr]
-ON=18,52,PACKAGE
-V=DO-204AH
 
 [Comp]
 Name=Resistor
@@ -1113,12 +1049,6 @@ Pxs=1256,296,1256,344
 Pxs=1208,344,1256,344
 
 [Wire]
-Pxs=1256,344,1256,352
-
-[Wire]
-Pxs=1256,400,1256,424
-
-[Wire]
 Pxs=1256,472,1256,480
 
 [Wire]
@@ -1135,25 +1065,6 @@ Pxs=968,280,1000,280
 
 [Wire]
 Pxs=1000,280,1016,280
-
-[Comp]
-Name=Capacitor
-Px=1296,376
-Rot=5
-
-[Attr]
-ON=12,-26,PART
-V=C6
-Style=8192
-
-[Attr]
-ON=12,-40,CAPACITANCE
-V=10u
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
 
 [Wire]
 Pxs=1296,272,1296,328
@@ -1221,6 +1132,49 @@ Pxs=656,408,816,408
 [Wire]
 Pxs=776,280,816,280
 
+[Wire]
+Pxs=1256,344,1256,424
+
+[Comp]
+Name=1N968A
+Px=1256,424
+Rot=1
+
+[Attr]
+ON=18,10,PART
+V=D9
+Style=8192
+
+[Attr]
+ON=18,24,MODEL
+V=1N968A
+
+[Attr]
+ON=18,52,PACKAGE
+V=DO-204AH
+
+[Wire]
+Pxs=872,584,896,584
+
+[Comp]
+Name=Capacitor
+Px=1296,376
+Rot=5
+
+[Attr]
+ON=12,-26,PART
+V=C6
+Style=8192
+
+[Attr]
+ON=12,-40,CAPACITANCE
+V=100u
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
 [Grid Text]
 Text="vout"
 Px=1320,584
@@ -1277,7 +1231,7 @@ CurrentSection 3=0
 Splitter.xs=0
 Splitter.ys=0
 TextQuad=4099
-Scale=0.66666666666666663
+Scale=1
 GridType=Normal
 GridUser=10
 ShapeGroups="Main","Euro","Polarity","Main1","Main11","Electrolytic","GroundArrow","DeMorgan"
@@ -1467,9 +1421,9 @@ Scale 0=1
 Scale 1=1
 SB 2=55,27
 Scale 2=1
-SB 3=304,216
-Scale 3=0.83196046128500822
-Px=818,228
+SB 3=234,222
+Scale 3=0.63405336721728078
+Px=1151,430
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1560,7 +1514,7 @@ Search Color=#FFFF00
 [Text Area]
 Section=0
 Page=1
-Text=.OPTIONS ITL4=50                
+Text=.OPTIONS ITL4=50                         
 
 [Text Area]
 Section=0
@@ -1697,7 +1651,7 @@ Data Point Labels Color Fore=Height=-15,FStyle=0,Color=#000000,Name=Arial
 Data Point Labels Color Back=#FFFF00
 OperPoint=True
 OperPointOnly=False
-AutoScaleRanges=True
+AutoScaleRanges=False
 FixedTimeStep=False
 DoPSS=False
 PSS_Periods="1"
@@ -1710,12 +1664,12 @@ FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
 MonMaxShow=8
-MonPageWidth=66
-MonPlotWidth=21
-MonExprXWidth=142
-MonExprYWidth=367
-MonRangeXWidth=90
-MonRangeYWidth=90
+MonPageWidth=42
+MonPlotWidth=26
+MonExprXWidth=96
+MonExprYWidth=170
+MonRangeXWidth=147
+MonRangeYWidth=111
 AnimateWait=None
 AnimateWaitTime=500
 AnimatePressAfter=0
@@ -1871,10 +1825,38 @@ Name="MAIN"
 
 [AObject]
 Analysis=Transient
+Object=Tag
+Locked=True
+EndPoint=ArrowF
+CBorder=#000080
+w=0
+AliasID1=5
+Pos=0.00049972602739726027,4.6116112809217977,0.00048328767123287673,6.1815336463223787
+Font=Height=-15,FStyle=0,Color=#00FF00,Name=Arial
+Format=3
+FormatY=3
+Branch=0
+
+[AObject]
+Analysis=Transient
+Object=Tag
+Locked=True
+EndPoint=ArrowF
+CBorder=#000080
+w=0
+AliasID1=5
+Pos=0.00015643835616438356,5.4817107033347536,0.00016191780821917808,7.042253521126761
+Font=Height=-15,FStyle=0,Color=#00FF00,Name=Arial
+Format=3
+FormatY=3
+Branch=0
+
+[AObject]
+Analysis=Transient
 Object=PTag
 EndPoint=ArrowF
 CBorder=#000080
-Pos=-13531718008.821676,-626501.65016501653,-13531715463.137997,-626270.62706270628
+Pos=-11261057409.543787,-626501.272264631,-11261055186.156267,-626310.43256997457
 Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Format=3
 FormatY=3
@@ -2106,9 +2088,9 @@ Seed=0
 
 [Limits]
 Analysis=Transient
-TMax=1m
+TMax=.8m
 TStart=0
-TStep=100000n
+TStep=0.00001m
 NPts=51
 Temp=27
 RetraceRuns=1
@@ -2124,10 +2106,11 @@ Plt=1
 AliasID=5
 XExp=T
 YExp=VGS(X3.M1)
-XRng=0.001
-YRng=AutoAlways
+XRng=0.0008
+YRng=50,-50
 Options=LINEARX,LINEARY
-Range Grid X=0.0002
+Range Grid X=0.00016
+Range Grid Y=10
 Enable=Enable
 Line Color=#00FF00
 Text Color=#00FF00
@@ -2150,9 +2133,10 @@ AliasID=1
 XExp=T
 YExp=v(vpulse)
 XRng=0.001
-YRng=AutoAlways
+YRng=50,-50
 Options=LINEARX,LINEARY
 Range Grid X=0.0002
+Range Grid Y=10
 Enable=DontRun
 Line Color=#FF00FF
 Text Color=#FF00FF
@@ -2174,10 +2158,11 @@ Plt=1
 AliasID=4
 XExp=T
 YExp=v(vout)
-XRng=0.001
-YRng=AutoAlways
+XRng=0.0008
+YRng=50,-50
 Options=LINEARX,LINEARY
-Range Grid X=0.0002
+Range Grid X=0.00016
+Range Grid Y=10
 Enable=Enable
 Line Color=#F86100
 Text Color=#F86100
@@ -2199,10 +2184,11 @@ Plt=1
 AliasID=8
 XExp=T
 YExp=rms(v(vout))
-XRng=0.001
-YRng=AutoAlways
+XRng=0.0008
+YRng=50,-50
 Options=LINEARX,LINEARY
-Range Grid X=0.0002
+Range Grid X=0.00016
+Range Grid Y=10
 Enable=Enable
 Line Color=#0000FF
 Text Color=#0000FF
@@ -2225,9 +2211,10 @@ AliasID=7
 XExp=T
 YExp=VC(Q2)-VS(X1.M1)
 XRng=5.13e-5
-YRng=AutoAlways
+YRng=50,-50
 Options=LINEARX,LINEARY
 Range Grid X=1.026e-5
+Range Grid Y=10
 Enable=DontRun
 Line Color=#0000FF
 Text Color=#0000FF
@@ -2250,9 +2237,10 @@ AliasID=10
 XExp=T
 YExp=rms(i(r1))
 XRng=0.05
-YRng=AutoAlways
+YRng=50,-50
 Options=LINEARX,LINEARY
 Range Grid X=0.01
+Range Grid Y=10
 Enable=DontRun
 Line Color=#000000
 Text Color=#000000
@@ -2275,9 +2263,10 @@ AliasID=11
 XExp=T
 YExp=rms(v(r1))
 XRng=0.05
-YRng=AutoAlways
+YRng=50,-50
 Options=LINEARX,LINEARY
 Range Grid X=0.01
+Range Grid Y=10
 Enable=DontRun
 Line Color=#0000FF
 Text Color=#0000FF
@@ -2299,21 +2288,21 @@ Plt=1
 AliasID=3
 XExp=T
 YExp=V(+20V)
-XRng=0.001
-YRng=240,-60
+XRng=0.0008
+YRng=50,-50
 Options=LINEARX,LINEARY
-Range Grid X=0.0002
-Range Grid Y=60
-Enable=DontRun
+Range Grid X=0.00016
+Range Grid Y=10
+Enable=Enable
 Line Color=#FF0000
 Text Color=#FF0000
 Rainbow=False
 VFmtX=3
 VFmtY=3
 ScaleFactorX="None"
-ScaleFactorY="None"
+ScaleFactorY="Auto"
 ScaleUnitsX="Auto"
-ScaleUnitsY="Auto"
+ScaleUnitsY="None"
 SFmtX=2
 SFmtY=2
 NOFmtX=3E
